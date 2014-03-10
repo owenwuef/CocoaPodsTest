@@ -1,5 +1,5 @@
 //
-//  CPTViewController.h
+//  CPTCollectionViewController.h
 //  CocoaPodsTest
 //
 //  Created by OwenWu on 10/3/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CPTViewController : UIViewController
-
-@property (nonatomic, retain) IBOutlet UIButton *btnOne;
+@interface CPTCollectionViewController : UICollectionViewController
 
 @end
