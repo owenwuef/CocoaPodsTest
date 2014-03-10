@@ -7,6 +7,7 @@
 //
 
 #import "CPTViewController.h"
+#import "AFNetworking.h"
 
 @interface CPTViewController ()
 
