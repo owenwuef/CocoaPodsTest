@@ -72,17 +72,16 @@
     // Plot type
     self.audioPlot.plotType        = EZPlotTypeBuffer;
     
-    /*
-     Start the microphone
-     */
-    [self.microphone startFetchingAudio];
-    self.microphoneTextLabel.text = @"Microphone On";
 }
 
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
     
-    // TODO:
+    /*
+     Start the microphone
+     */
+    [self.microphone startFetchingAudio];
+    self.microphoneTextLabel.text = @"Microphone On";
 }
 
 
