@@ -24,18 +24,21 @@ PODS:
   - CocoaLumberjack/Extensions (1.8.1):
     - CocoaLumberjack/Core
   - EZAudio (0.0.3)
+  - GoogleAnalytics-iOS-SDK (3.0.6)
   - Reachability (3.1.1)
 
 DEPENDENCIES:
   - AFNetworking
   - CocoaLumberjack
   - EZAudio (~> 0.0.3)
+  - GoogleAnalytics-iOS-SDK
   - Reachability
 
 SPEC CHECKSUMS:
   AFNetworking: e8cfd8f3fe3bfe19124a0cc63f4d45752d892a56
   CocoaLumberjack: 020378ec400d658923bf5887178394f65f052c90
   EZAudio: 8b2138f290208e030bc401fbf6d95eeaa6e205e0
+  GoogleAnalytics-iOS-SDK: 16dfcc0c4491148bf372edc85a8470cc405ffb72
   Reachability: be4883bb93f31e38266ae3365e5600a317aae735
 
 COCOAPODS: 0.32.1

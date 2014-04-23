@@ -70,6 +70,11 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
+## GoogleAnalytics-iOS-SDK
+
+Copyright 2009 - 2014 Google, Inc. All rights reserved.
+
+
 ## Reachability
 
 Copyright (c) 2011, Tony Million.

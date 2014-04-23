@@ -72,6 +72,12 @@
 #define COCOAPODS_VERSION_MINOR_EZAudio 0
 #define COCOAPODS_VERSION_PATCH_EZAudio 3
 
+// GoogleAnalytics-iOS-SDK
+#define COCOAPODS_POD_AVAILABLE_GoogleAnalytics_iOS_SDK
+#define COCOAPODS_VERSION_MAJOR_GoogleAnalytics_iOS_SDK 3
+#define COCOAPODS_VERSION_MINOR_GoogleAnalytics_iOS_SDK 0
+#define COCOAPODS_VERSION_PATCH_GoogleAnalytics_iOS_SDK 6
+
 // Reachability
 #define COCOAPODS_POD_AVAILABLE_Reachability
 #define COCOAPODS_VERSION_MAJOR_Reachability 3
