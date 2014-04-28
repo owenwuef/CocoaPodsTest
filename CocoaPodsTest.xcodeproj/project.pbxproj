@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1304DD31190E3E5A009EACCE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1304DD30190E3E5A009EACCE /* CoreLocation.framework */; };
+		1304DD33190E3EF1009EACCE /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 1304DD32190E3EF1009EACCE /* sample.json */; };
+		1304DD34190E3EF1009EACCE /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 1304DD32190E3EF1009EACCE /* sample.json */; };
 		1386382D18CD9786000E6A8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1386382C18CD9786000E6A8F /* Foundation.framework */; };
 		1386382F18CD9786000E6A8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1386382E18CD9786000E6A8F /* CoreGraphics.framework */; };
 		1386383118CD9786000E6A8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1386383018CD9786000E6A8F /* UIKit.framework */; };
@@ -101,6 +104,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1304DD30190E3E5A009EACCE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1304DD32190E3EF1009EACCE /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
 		1386382918CD9786000E6A8F /* CocoaPodsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaPodsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1386382C18CD9786000E6A8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1386382E18CD9786000E6A8F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -196,6 +201,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1304DD31190E3E5A009EACCE /* CoreLocation.framework in Frameworks */,
 				1386382F18CD9786000E6A8F /* CoreGraphics.framework in Frameworks */,
 				1386383118CD9786000E6A8F /* UIKit.framework in Frameworks */,
 				1386382D18CD9786000E6A8F /* Foundation.framework in Frameworks */,
@@ -239,6 +245,7 @@
 		1386382B18CD9786000E6A8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1304DD30190E3E5A009EACCE /* CoreLocation.framework */,
 				1386382C18CD9786000E6A8F /* Foundation.framework */,
 				1386382E18CD9786000E6A8F /* CoreGraphics.framework */,
 				1386383018CD9786000E6A8F /* UIKit.framework */,
@@ -269,6 +276,7 @@
 		1386383318CD9786000E6A8F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1304DD32190E3EF1009EACCE /* sample.json */,
 				1386383418CD9786000E6A8F /* CocoaPodsTest-Info.plist */,
 				1386383518CD9786000E6A8F /* InfoPlist.strings */,
 				1386383818CD9786000E6A8F /* main.m */,
@@ -511,6 +519,7 @@
 				138638F318CDB567000E6A8F /* 4.JPG in Resources */,
 				138638DB18CDB567000E6A8F /* 10.JPG in Resources */,
 				138638BC18CDB567000E6A8F /* 12_full.JPG in Resources */,
+				1304DD33190E3EF1009EACCE /* sample.json in Resources */,
 				138638CE18CDB567000E6A8F /* 29_full.JPG in Resources */,
 				138638EA18CDB567000E6A8F /* 24.JPG in Resources */,
 				138638C118CDB567000E6A8F /* 17_full.JPG in Resources */,
@@ -540,6 +549,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1386385918CD9786000E6A8F /* InfoPlist.strings in Resources */,
+				1304DD34190E3EF1009EACCE /* sample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

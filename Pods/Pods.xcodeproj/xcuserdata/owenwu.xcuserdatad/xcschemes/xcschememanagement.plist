@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-BaseModel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-CocoaLumberjack.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,32 +42,37 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>03EEDFA91EC64C7F9CDC7607</key>
+		<key>0D1EDE5380AA493480A1C2BD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>072B2B7DA7EE447F960ABB07</key>
+		<key>161E3A8D76334C5E8D973F7D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>310238CA4222472D921D6D1A</key>
+		<key>328F6576A9C94256A1F87305</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3523A03A04844ED4BA63B7A2</key>
+		<key>6B47AEB5B2EF42E4B49B1D47</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>946079180FBC47CF940E4F28</key>
+		<key>8ABD06BDDB704F0DAFCF1BAF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E0270C286E724400A2C8110A</key>
+		<key>D53D2D351EC641E8AFEAB6CD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E8A0B4DC46084F35857B2B29</key>
 		<dict>
 			<key>primary</key>
 			<true/>

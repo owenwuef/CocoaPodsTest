@@ -48,6 +48,12 @@
 #define COCOAPODS_VERSION_MINOR_AFNetworking_UIKit 2
 #define COCOAPODS_VERSION_PATCH_AFNetworking_UIKit 0
 
+// BaseModel
+#define COCOAPODS_POD_AVAILABLE_BaseModel
+#define COCOAPODS_VERSION_MAJOR_BaseModel 2
+#define COCOAPODS_VERSION_MINOR_BaseModel 6
+#define COCOAPODS_VERSION_PATCH_BaseModel 1
+
 // CocoaLumberjack
 #define COCOAPODS_POD_AVAILABLE_CocoaLumberjack
 #define COCOAPODS_VERSION_MAJOR_CocoaLumberjack 1
