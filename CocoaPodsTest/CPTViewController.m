@@ -19,7 +19,7 @@
 #pragma mark - Initialize View Controller Here
 -(void)initializeViewController {
     // Create an instance of the microphone and tell it to use this view controller instance as the delegate
-    self.microphone = [EZMicrophone microphoneWithDelegate:self];
+//    self.microphone = [EZMicrophone microphoneWithDelegate:self];
 }
 
 
@@ -66,11 +66,11 @@
      Customizing the audio plot's look
      */
     // Background color
-    self.audioPlot.backgroundColor = [UIColor colorWithRed:0.984 green:0.471 blue:0.525 alpha:1.0];
+//    self.audioPlot.backgroundColor = [UIColor colorWithRed:0.984 green:0.471 blue:0.525 alpha:1.0];
     // Waveform color
-    self.audioPlot.color           = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0];
+//    self.audioPlot.color           = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0];
     // Plot type
-    self.audioPlot.plotType        = EZPlotTypeBuffer;
+//    self.audioPlot.plotType        = EZPlotTypeBuffer;
     
 }
 
@@ -80,7 +80,7 @@
     /*
      Start the microphone
      */
-    [self.microphone startFetchingAudio];
+//    [self.microphone startFetchingAudio];
     self.microphoneTextLabel.text = @"Microphone On";
 }
 
@@ -97,20 +97,20 @@
  */
 -(void)drawBufferPlot {
     // Change the plot type to the buffer plot
-    self.audioPlot.plotType = EZPlotTypeBuffer;
+//    self.audioPlot.plotType = EZPlotTypeBuffer;
     // Don't mirror over the x-axis
-    self.audioPlot.shouldMirror = NO;
+//    self.audioPlot.shouldMirror = NO;
     // Don't fill
-    self.audioPlot.shouldFill = NO;
+//    self.audioPlot.shouldFill = NO;
 }
 
 /*
  Give the classic mirrored, rolling waveform look
  */
 -(void)drawRollingPlot {
-    self.audioPlot.plotType = EZPlotTypeRolling;
-    self.audioPlot.shouldFill = YES;
-    self.audioPlot.shouldMirror = YES;
+//    self.audioPlot.plotType = EZPlotTypeRolling;
+//    self.audioPlot.shouldFill = YES;
+//    self.audioPlot.shouldMirror = YES;
 }
 
 #pragma mark - Actions
@@ -136,15 +136,16 @@
 
 -(IBAction)toggleMicrophone:(id)sender{
     if( ![(UISwitch*)sender isOn] ){
-        [self.microphone stopFetchingAudio];
+//        [self.microphone stopFetchingAudio];
         self.microphoneTextLabel.text = @"Microphone Off";
     }
     else {
-        [self.microphone startFetchingAudio];
+//        [self.microphone startFetchingAudio];
         self.microphoneTextLabel.text = @"Microphone On";
     }
 }
 
+/*
 #pragma mark - EZMicrophoneDelegate
 // Note that any callback that provides streamed audio data (like streaming microphone input) happens on a separate audio thread that should not be blocked. When we feed audio data into any of the UI components we need to explicity create a GCD block on the main thread to properly get the UI to work.
 -(void)microphone:(EZMicrophone *)microphone
@@ -172,5 +173,5 @@ withNumberOfChannels:(UInt32)numberOfChannels {
 withNumberOfChannels:(UInt32)numberOfChannels {
     // Getting audio data as a buffer list that can be directly fed into the EZRecorder or EZOutput. Say whattt...
 }
-
+*/
 @end

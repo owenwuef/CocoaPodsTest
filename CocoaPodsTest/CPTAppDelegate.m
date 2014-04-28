@@ -45,12 +45,4 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-//- (CLBeaconRegion *)beaconRegionWithItem:(RWTItem *)item {
-//    CLBeaconRegion *beaconRegion = [[CLBeaconRegion alloc] initWithProximityUUID:item.uuid
-//                                                                           major:item.majorValue
-//                                                                           minor:item.minorValue
-//                                                                      identifier:item.name];
-//    return beaconRegion;
-//}
-
 @end

@@ -12,6 +12,7 @@
 @interface CPTAppDelegate : UIResponder <UIApplicationDelegate, CLLocationManagerDelegate>
 
 @property (strong, nonatomic) NSMutableArray *items;
+
 @property (strong, nonatomic) CLLocationManager *locationManager;
 
 @property (strong, nonatomic) UIWindow *window;
