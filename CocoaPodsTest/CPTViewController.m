@@ -87,26 +87,8 @@
 }
 
 #pragma mark - Action Extensions
-/*
- Give the visualization of the current buffer (this is almost exactly the openFrameworks audio input eample)
- */
--(void)drawBufferPlot {
-    // Change the plot type to the buffer plot
-//    self.audioPlot.plotType = EZPlotTypeBuffer;
-    // Don't mirror over the x-axis
-//    self.audioPlot.shouldMirror = NO;
-    // Don't fill
-//    self.audioPlot.shouldFill = NO;
-}
 
-/*
- Give the classic mirrored, rolling waveform look
- */
--(void)drawRollingPlot {
-//    self.audioPlot.plotType = EZPlotTypeRolling;
-//    self.audioPlot.shouldFill = YES;
-//    self.audioPlot.shouldMirror = YES;
-}
+
 
 #pragma mark - Actions
 
@@ -117,27 +99,6 @@
     [self presentViewController:theTabViewController animated:YES completion:^(){
         
     }];
-}
-
--(IBAction)changePlotType:(id)sender{
-    NSInteger selectedSegment = [sender selectedSegmentIndex];
-    switch(selectedSegment){
-        case 0:
-            [self drawBufferPlot];
-            break;
-        case 1:
-            [self drawRollingPlot];
-            break;
-        default:
-            break;
-    }
-}
-
--(IBAction)toggleMicrophone:(id)sender{
-    if( ![(UISwitch*)sender isOn] ){
-    }
-    else {
-    }
 }
 
 #pragma mark - UIWebViewDelegate Methods
