@@ -1,6 +1,6 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/BaseModel" "${PODS_ROOT}/Headers/CocoaLumberjack" "${PODS_ROOT}/Headers/EZAudio" "${PODS_ROOT}/Headers/GoogleAnalytics-iOS-SDK" "${PODS_ROOT}/Headers/Reachability" $(SDKROOT)/usr/include/libz
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/BaseModel" "${PODS_ROOT}/Headers/CocoaLumberjack" "${PODS_ROOT}/Headers/GoogleAnalytics-iOS-SDK" "${PODS_ROOT}/Headers/Reachability" $(SDKROOT)/usr/include/libz
 LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/GoogleAnalytics-iOS-SDK"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers" -isystem "${PODS_ROOT}/Headers/AFNetworking" -isystem "${PODS_ROOT}/Headers/BaseModel" -isystem "${PODS_ROOT}/Headers/CocoaLumberjack" -isystem "${PODS_ROOT}/Headers/EZAudio" -isystem "${PODS_ROOT}/Headers/GoogleAnalytics-iOS-SDK" -isystem "${PODS_ROOT}/Headers/Reachability"
-OTHER_LDFLAGS = -ObjC -lGoogleAnalyticsServices -lsqlite3 -lz -framework AudioToolbox -framework CFNetwork -framework CoreData -framework CoreGraphics -framework GLKit -framework MobileCoreServices -framework Security -framework SystemConfiguration
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers" -isystem "${PODS_ROOT}/Headers/AFNetworking" -isystem "${PODS_ROOT}/Headers/BaseModel" -isystem "${PODS_ROOT}/Headers/CocoaLumberjack" -isystem "${PODS_ROOT}/Headers/GoogleAnalytics-iOS-SDK" -isystem "${PODS_ROOT}/Headers/Reachability"
+OTHER_LDFLAGS = -ObjC -lGoogleAnalyticsServices -lsqlite3 -lz -framework CFNetwork -framework CoreData -framework CoreGraphics -framework MobileCoreServices -framework Security -framework SystemConfiguration
 PODS_ROOT = ${SRCROOT}/Pods

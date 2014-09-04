@@ -19,11 +19,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-EZAudio.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-GoogleAnalytics-iOS-SDK.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,37 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>149970BF41284102BF2C0803</key>
+		<key>0DB04102974B46AABE5DA728</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>553728F4A2E14DB5969637E2</key>
+		<key>50BAF1633BF147159F88D3B3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>81D83B6EFF474EF1B2CA9A5D</key>
+		<key>579B3FBD12974880837C7274</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>84A3ADBF5E6449089C7BDD05</key>
+		<key>5E8112C8FF264EAE92AEE976</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BFBE15AA43814B869EC19728</key>
+		<key>6B8DAF75EAE14075A3C82C21</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F5254D1658C44E26976F2D8A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA9550CF9C714BABA81F7BBF</key>
+		<key>FC966833F9CE417F8A21DEAE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
