@@ -84,6 +84,7 @@
 		138638F618CDB567000E6A8F /* 7.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 138638B118CDB567000E6A8F /* 7.JPG */; };
 		138638F718CDB567000E6A8F /* 8.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 138638B218CDB567000E6A8F /* 8.JPG */; };
 		138638F818CDB567000E6A8F /* 9.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 138638B318CDB567000E6A8F /* 9.JPG */; };
+		13EA946F19B85866005DEF59 /* CPTTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EA946E19B85866005DEF59 /* CPTTabViewController.m */; };
 		8B9E4C2B159A478E995E1229 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC4C49E3015469F911A8F10 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -175,6 +176,8 @@
 		138638B118CDB567000E6A8F /* 7.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.JPG; sourceTree = "<group>"; };
 		138638B218CDB567000E6A8F /* 8.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.JPG; sourceTree = "<group>"; };
 		138638B318CDB567000E6A8F /* 9.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.JPG; sourceTree = "<group>"; };
+		13EA946D19B85866005DEF59 /* CPTTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTabViewController.h; sourceTree = "<group>"; };
+		13EA946E19B85866005DEF59 /* CPTTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTTabViewController.m; sourceTree = "<group>"; };
 		19BE74D539C14B479DE0D0A9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		BDC4C49E3015469F911A8F10 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -239,13 +242,15 @@
 		1386383218CD9786000E6A8F /* CocoaPodsTest */ = {
 			isa = PBXGroup;
 			children = (
+				1386383E18CD9786000E6A8F /* Main_iPhone.storyboard */,
+				1386384118CD9786000E6A8F /* Main_iPad.storyboard */,
 				1304DD39190E47F6009EACCE /* DataModel */,
 				1386383B18CD9786000E6A8F /* CPTAppDelegate.h */,
 				1386383C18CD9786000E6A8F /* CPTAppDelegate.m */,
-				1386383E18CD9786000E6A8F /* Main_iPhone.storyboard */,
-				1386384118CD9786000E6A8F /* Main_iPad.storyboard */,
 				1386384418CD9786000E6A8F /* CPTViewController.h */,
 				1386384518CD9786000E6A8F /* CPTViewController.m */,
+				13EA946D19B85866005DEF59 /* CPTTabViewController.h */,
+				13EA946E19B85866005DEF59 /* CPTTabViewController.m */,
 				1386384718CD9786000E6A8F /* Images.xcassets */,
 				1386386C18CDB566000E6A8F /* images */,
 				1386383318CD9786000E6A8F /* Supporting Files */,
@@ -546,6 +551,7 @@
 				1386383918CD9786000E6A8F /* main.m in Sources */,
 				1386384618CD9786000E6A8F /* CPTViewController.m in Sources */,
 				1304DD3C190E47F6009EACCE /* CPTItem.m in Sources */,
+				13EA946F19B85866005DEF59 /* CPTTabViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

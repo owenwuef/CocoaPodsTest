@@ -8,23 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-// Import EZAudio header
-//#import "EZAudio.h"
-
-@interface CPTViewController : UIViewController //<EZMicrophoneDelegate>
+@interface CPTViewController : UIViewController <UIWebViewDelegate>
 
 @property (nonatomic, retain) IBOutlet UIButton *btnOne;
 
 #pragma mark - Components
-/**
- The CoreGraphics based audio plot
- */
-//@property (nonatomic,weak) IBOutlet EZAudioPlot *audioPlot;
-
-/**
- The microphone component
- */
-//@property (nonatomic,strong) EZMicrophone *microphone;
 
 #pragma mark - Actions
 /**
