@@ -20,7 +20,6 @@
 		1386384818CD9786000E6A8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1386384718CD9786000E6A8F /* Images.xcassets */; };
 		1386386618CD9F48000E6A8F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1386383E18CD9786000E6A8F /* Main_iPhone.storyboard */; };
 		1386386718CD9F4D000E6A8F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1386384118CD9786000E6A8F /* Main_iPad.storyboard */; };
-		1386386B18CDAEA9000E6A8F /* CPTCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1386386A18CDAEA9000E6A8F /* CPTCollectionViewController.m */; };
 		138638B918CDB567000E6A8F /* 0_full.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1386387318CDB566000E6A8F /* 0_full.JPG */; };
 		138638BA18CDB567000E6A8F /* 10_full.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1386387418CDB566000E6A8F /* 10_full.JPG */; };
 		138638BB18CDB567000E6A8F /* 11_full.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1386387518CDB566000E6A8F /* 11_full.JPG */; };
@@ -112,8 +111,6 @@
 		1386385618CD9786000E6A8F /* CocoaPodsTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaPodsTestTests-Info.plist"; sourceTree = "<group>"; };
 		1386385818CD9786000E6A8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1386385A18CD9786000E6A8F /* CocoaPodsTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaPodsTestTests.m; sourceTree = "<group>"; };
-		1386386918CDAEA9000E6A8F /* CPTCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTCollectionViewController.h; sourceTree = "<group>"; };
-		1386386A18CDAEA9000E6A8F /* CPTCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTCollectionViewController.m; sourceTree = "<group>"; };
 		1386387318CDB566000E6A8F /* 0_full.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0_full.JPG; sourceTree = "<group>"; };
 		1386387418CDB566000E6A8F /* 10_full.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10_full.JPG; sourceTree = "<group>"; };
 		1386387518CDB566000E6A8F /* 11_full.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11_full.JPG; sourceTree = "<group>"; };
@@ -249,8 +246,6 @@
 				1386384118CD9786000E6A8F /* Main_iPad.storyboard */,
 				1386384418CD9786000E6A8F /* CPTViewController.h */,
 				1386384518CD9786000E6A8F /* CPTViewController.m */,
-				1386386918CDAEA9000E6A8F /* CPTCollectionViewController.h */,
-				1386386A18CDAEA9000E6A8F /* CPTCollectionViewController.m */,
 				1386384718CD9786000E6A8F /* Images.xcassets */,
 				1386386C18CDB566000E6A8F /* images */,
 				1386383318CD9786000E6A8F /* Supporting Files */,
@@ -549,7 +544,6 @@
 			files = (
 				1386383D18CD9786000E6A8F /* CPTAppDelegate.m in Sources */,
 				1386383918CD9786000E6A8F /* main.m in Sources */,
-				1386386B18CDAEA9000E6A8F /* CPTCollectionViewController.m in Sources */,
 				1386384618CD9786000E6A8F /* CPTViewController.m in Sources */,
 				1304DD3C190E47F6009EACCE /* CPTItem.m in Sources */,
 			);
