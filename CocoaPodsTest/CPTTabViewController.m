@@ -8,6 +8,8 @@
 
 #import "CPTTabViewController.h"
 
+#define kBottomButtonHeight 75
+
 @interface CPTTabViewController ()
 
 @end
@@ -34,6 +36,32 @@
     [self.view addSubview:backButton];
     
     self.view.backgroundColor = [UIColor whiteColor];
+    
+
+    
+    UIButton *scanButton = [[UIButton alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height-kBottomButtonHeight, kBottomButtonHeight, kBottomButtonHeight)];
+    scanButton.backgroundColor = [UIColor greenColor];
+    [scanButton setTitle:@"Scan" forState:UIControlStateNormal];
+    [scanButton addTarget:self action:@selector(backToPrevious) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:scanButton];
+
+    UIButton *locateButton = [[UIButton alloc] initWithFrame:CGRectMake(kBottomButtonHeight+5, self.view.frame.size.height-kBottomButtonHeight, kBottomButtonHeight, kBottomButtonHeight)];
+    locateButton.backgroundColor = [UIColor redColor];
+    [locateButton setTitle:@"Locate" forState:UIControlStateNormal];
+    [locateButton addTarget:self action:@selector(backToPrevious) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:locateButton];
+
+    UIButton *bookmarkButton = [[UIButton alloc] initWithFrame:CGRectMake((kBottomButtonHeight+5)*2, self.view.frame.size.height-kBottomButtonHeight, kBottomButtonHeight, kBottomButtonHeight)];
+    bookmarkButton.backgroundColor = [UIColor yellowColor];
+    [bookmarkButton setTitle:@"Bookmark" forState:UIControlStateNormal];
+    [bookmarkButton addTarget:self action:@selector(backToPrevious) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:bookmarkButton];
+
+    UIButton *searchButton = [[UIButton alloc] initWithFrame:CGRectMake((kBottomButtonHeight+5)*3, self.view.frame.size.height-kBottomButtonHeight, kBottomButtonHeight, kBottomButtonHeight)];
+    searchButton.backgroundColor = [UIColor lightGrayColor];
+    [searchButton setTitle:@"Search" forState:UIControlStateNormal];
+    [searchButton addTarget:self action:@selector(backToPrevious) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:searchButton];
 }
 
 - (void)didReceiveMemoryWarning
