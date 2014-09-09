@@ -15,12 +15,12 @@
     NSTimer * timer;
 }
 
-@property (strong,nonatomic)AVCaptureDevice * device;
-@property (strong,nonatomic)AVCaptureDeviceInput * input;
-@property (strong,nonatomic)AVCaptureMetadataOutput * output;
-@property (strong,nonatomic)AVCaptureSession * session;
-@property (strong,nonatomic)AVCaptureVideoPreviewLayer * preview;
-@property (nonatomic, retain) UIImageView * line;
+@property (strong,nonatomic) AVCaptureDevice * device;
+@property (strong,nonatomic) AVCaptureDeviceInput * input;
+@property (strong,nonatomic) AVCaptureMetadataOutput * output;
+@property (strong,nonatomic) AVCaptureSession * session;
+@property (strong,nonatomic) AVCaptureVideoPreviewLayer * preview;
+@property (nonatomic,retain) UIImageView * line;
 
 @end
 
@@ -63,6 +63,7 @@
     _line = [[UIImageView alloc] initWithFrame:CGRectMake(50, 110, 220, 2)];
     _line.image = [UIImage imageNamed:@"line.png"];
     [self.view addSubview:_line];
+    
     
     timer = [NSTimer scheduledTimerWithTimeInterval:.02 target:self selector:@selector(animation1) userInfo:nil repeats:YES];
 }

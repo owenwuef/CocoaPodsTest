@@ -7,15 +7,21 @@
 //
 
 #import "CPTViewController.h"
+
 #import "AFNetworking.h"
+
 #import "CPTTabViewController.h"
 
 #import "CPTScanQRViewController.h"
+
+#import "CPTLocationViewController.h"
 
 @interface CPTViewController (){
     CPTTabViewController *theTabViewController;
     
     CPTScanQRViewController *theScanQRViewController;
+    
+    CPTLocationViewController *locationsViewController;
 }
 #pragma mark - UI Extras
 @property (weak, nonatomic) IBOutlet UIWebView *logInWebView;
@@ -31,6 +37,7 @@
     
     theTabViewController = [[CPTTabViewController alloc] init];
     theScanQRViewController = [[CPTScanQRViewController alloc] init];
+    locationsViewController = [[CPTLocationViewController alloc] init];
 }
 
 
@@ -98,11 +105,32 @@
 
 -(IBAction)btnOneTouchInsideUP:(id)sender
 {
-    NSLog(@"%s",__FUNCTION__);
+    NSInteger btnIdx = ((UIButton*)sender).tag;
     
-    [self presentViewController:theScanQRViewController animated:YES completion:^(){
-        
-    }];
+    NSLog(@"%s:%ld",__FUNCTION__, (long)btnIdx);
+    
+    switch (btnIdx) {
+        case 0:
+            [self presentViewController:theScanQRViewController animated:YES completion:^(){
+            }];
+            break;
+        case 1:
+            [self presentViewController:locationsViewController animated:YES completion:^(){
+            }];
+            break;
+        case 2:
+//            [self presentViewController:nil animated:YES completion:^(){
+//            }];
+            break;
+        case 3:
+//            [self presentViewController:nil animated:YES completion:^(){
+//            }];
+            break;
+            
+        default:
+            break;
+    }
+    
 }
 
 #pragma mark - UIWebViewDelegate Methods

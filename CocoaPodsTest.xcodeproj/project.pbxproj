@@ -87,6 +87,8 @@
 		138638F818CDB567000E6A8F /* 9.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 138638B318CDB567000E6A8F /* 9.JPG */; };
 		1389CC0419BEA6CC00F9C591 /* CPTScanQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1389CC0319BEA6CC00F9C591 /* CPTScanQRViewController.m */; };
 		1389CC0619BEA80400F9C591 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1389CC0519BEA80400F9C591 /* AVFoundation.framework */; };
+		1389CC0919BEAB4000F9C591 /* CPTLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1389CC0819BEAB4000F9C591 /* CPTLocationViewController.m */; };
+		1389CC0B19BEAB5300F9C591 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1389CC0A19BEAB5300F9C591 /* MapKit.framework */; };
 		13EA946F19B85866005DEF59 /* CPTTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EA946E19B85866005DEF59 /* CPTTabViewController.m */; };
 		8B9E4C2B159A478E995E1229 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC4C49E3015469F911A8F10 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -183,6 +185,9 @@
 		1389CC0219BEA6CC00F9C591 /* CPTScanQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTScanQRViewController.h; sourceTree = "<group>"; };
 		1389CC0319BEA6CC00F9C591 /* CPTScanQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTScanQRViewController.m; sourceTree = "<group>"; };
 		1389CC0519BEA80400F9C591 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1389CC0719BEAB4000F9C591 /* CPTLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLocationViewController.h; sourceTree = "<group>"; };
+		1389CC0819BEAB4000F9C591 /* CPTLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTLocationViewController.m; sourceTree = "<group>"; };
+		1389CC0A19BEAB5300F9C591 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		13EA946D19B85866005DEF59 /* CPTTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTabViewController.h; sourceTree = "<group>"; };
 		13EA946E19B85866005DEF59 /* CPTTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTTabViewController.m; sourceTree = "<group>"; };
 		19BE74D539C14B479DE0D0A9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -194,6 +199,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1389CC0B19BEAB5300F9C591 /* MapKit.framework in Frameworks */,
 				1389CC0619BEA80400F9C591 /* AVFoundation.framework in Frameworks */,
 				13396D8E19B85E1900565CEB /* CFNetwork.framework in Frameworks */,
 				1304DD31190E3E5A009EACCE /* CoreLocation.framework in Frameworks */,
@@ -238,6 +244,7 @@
 		1386382B18CD9786000E6A8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1389CC0A19BEAB5300F9C591 /* MapKit.framework */,
 				1389CC0519BEA80400F9C591 /* AVFoundation.framework */,
 				13396D8D19B85E1900565CEB /* CFNetwork.framework */,
 				1304DD30190E3E5A009EACCE /* CoreLocation.framework */,
@@ -264,6 +271,8 @@
 				13EA946E19B85866005DEF59 /* CPTTabViewController.m */,
 				1389CC0219BEA6CC00F9C591 /* CPTScanQRViewController.h */,
 				1389CC0319BEA6CC00F9C591 /* CPTScanQRViewController.m */,
+				1389CC0719BEAB4000F9C591 /* CPTLocationViewController.h */,
+				1389CC0819BEAB4000F9C591 /* CPTLocationViewController.m */,
 				1386384718CD9786000E6A8F /* Images.xcassets */,
 				1386386C18CDB566000E6A8F /* images */,
 				1386383318CD9786000E6A8F /* Supporting Files */,
@@ -562,6 +571,7 @@
 			files = (
 				1389CC0419BEA6CC00F9C591 /* CPTScanQRViewController.m in Sources */,
 				1386383D18CD9786000E6A8F /* CPTAppDelegate.m in Sources */,
+				1389CC0919BEAB4000F9C591 /* CPTLocationViewController.m in Sources */,
 				1386383918CD9786000E6A8F /* main.m in Sources */,
 				1386384618CD9786000E6A8F /* CPTViewController.m in Sources */,
 				1304DD3C190E47F6009EACCE /* CPTItem.m in Sources */,
