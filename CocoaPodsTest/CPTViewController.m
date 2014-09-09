@@ -10,8 +10,12 @@
 #import "AFNetworking.h"
 #import "CPTTabViewController.h"
 
+#import "CPTScanQRViewController.h"
+
 @interface CPTViewController (){
     CPTTabViewController *theTabViewController;
+    
+    CPTScanQRViewController *theScanQRViewController;
 }
 #pragma mark - UI Extras
 @property (weak, nonatomic) IBOutlet UIWebView *logInWebView;
@@ -26,7 +30,7 @@
     _logInWebView.delegate = self;
     
     theTabViewController = [[CPTTabViewController alloc] init];
-        
+    theScanQRViewController = [[CPTScanQRViewController alloc] init];
 }
 
 
@@ -96,7 +100,7 @@
 {
     NSLog(@"%s",__FUNCTION__);
     
-    [self presentViewController:theTabViewController animated:YES completion:^(){
+    [self presentViewController:theScanQRViewController animated:YES completion:^(){
         
     }];
 }
