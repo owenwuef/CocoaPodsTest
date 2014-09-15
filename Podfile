@@ -1,4 +1,4 @@
-platform :ios, '6.0'
+platform :ios, '7.0'
 
 pod 'AFNetworking'
 pod 'Reachability'
@@ -6,3 +6,4 @@ pod 'Reachability'
 pod 'CocoaLumberjack'
 pod 'GoogleAnalytics-iOS-SDK'
 pod 'BaseModel'
+pod 'Selene'

@@ -8,73 +8,71 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 		<key>Pods-BaseModel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 		<key>Pods-CocoaLumberjack.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 		<key>Pods-GoogleAnalytics-iOS-SDK.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>5</integer>
 		</dict>
 		<key>Pods-Reachability.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>6</integer>
+		</dict>
+		<key>Pods-Selene.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0DB04102974B46AABE5DA728</key>
+		<key>111A47C3A9F1482092D7D24C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>50BAF1633BF147159F88D3B3</key>
+		<key>3F837475FEC2467A807FE17B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>579B3FBD12974880837C7274</key>
+		<key>41B647AA83DE4288A16CE491</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5E8112C8FF264EAE92AEE976</key>
+		<key>46043733D97C49069CA6C0D1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6B8DAF75EAE14075A3C82C21</key>
+		<key>6D87D49354214E6ABFBE2E4E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FC966833F9CE417F8A21DEAE</key>
+		<key>724AF975D63C47B78618EE03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EA76A6F151014B7AA49B4A66</key>
 		<dict>
 			<key>primary</key>
 			<true/>
