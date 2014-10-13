@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## AFNetworking
 
-Copyright (c) 2013 AFNetworking (http://afnetworking.com/)
+Copyright (c) 2013-2014 AFNetworking (http://afnetworking.com/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -28,7 +28,7 @@ THE SOFTWARE.
 
 BaseModel
 
-version 2.6.1, April 3rd, 2014
+version 2.6.3, August 24th, 2014
 
 Copyright (C) 2011 Charcoal Design
 
@@ -54,7 +54,7 @@ freely, subject to the following restrictions:
 
 Software License Agreement (BSD License)
 
-Copyright (c) 2010, Deusty, LLC
+Copyright (c) 2010-2014, Deusty, LLC
 All rights reserved.
 
 Redistribution and use of this software in source and binary forms,

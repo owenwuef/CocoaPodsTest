@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/nicklockwood/BaseModel.svg)](https://travis-ci.org/nicklockwood/BaseModel)
+
+
 Purpose
 --------------
 
@@ -21,7 +24,7 @@ BaseModel is designed to work with the following serialization libraries:
 Supported OS & SDK Versions
 -----------------------------
 
-* Supported build target - iOS 7.1 / Mac OS 10.9 (Xcode 5.1, Apple LLVM compiler 5.1)
+* Supported build target - iOS 8.0 / Mac OS 10.9 (Xcode 6.0, Apple LLVM compiler 6.0)
 * Earliest supported deployment target - iOS 5.0 / Mac OS 10.7
 * Earliest compatible deployment target - iOS 4.3 / Mac OS 10.6
 
@@ -65,7 +68,7 @@ BaseModel's initialisation routine is quite complex and follows a multi-step pro
 
     - (void)tearDown;
     
-The tearDown method complements setUp. It is called when the object is destroyed, but will only be called if the setUp method was called first. This is useful in situations where the class gets destroyed before it is initialised, which might for example happen if it was created by calling [[Model alloc] initWithObject:nil]. By putting your destructor logic in tearDown instead of dealloc, you can avoid unbalanced calls to removeObserver, etc. You should never call `tearDown` yourself directly, except in the context of calling `[super tearDown]` (it is called automatically by BaseModel's `dealloc` method).  There is no need to call `[super tearDown]` unless you have subclassed one of your own BaseModel subclasses. 
+The tearDown method complements setUp. It is called whent he object is destroyed, but will only be called if the setUp method was called first. This is useful in situations where the class gets destroyed before it is initialised, which might for example happen if it was created by calling [[Model alloc] initWithObject:nil]. By putting your destructor logic in tearDown instead of dealloc, you can avoid unbalanced calls to removeObserver, etc. You should never call `tearDown` yourself directly, except in the context of calling `[super tearDown]` (it is called automatically by BaseModel's `dealloc` method).  There is no need to call `[super tearDown]` unless you have subclassed one of your own BaseModel subclasses. 
 
     - (void)setWithDictionary:(NSDictionary *)dict;
 
@@ -203,7 +206,7 @@ This is the same as the BMFileFormatBinaryPropertyList option, except that when 
 
     BMFileFormatKeychain
     
-This is the similar to the BMFileFormatBinaryPropertyList option, except that when calling the save method, instead of saving to a file, the model will be securely saved in the keychain (meaning that every property will be individually encoded as a password in the keychain). This is a great option for models that represent user login credentials, or other secure data. Use of this option requires you to include the FXKeychain library. Note that the keychain has limited storage space, so you should not use this for storing large amounts of secure data (for that, try the BMFileFormatCryptoCoding option instead).
+This is the similar to the BMFileFormatBinaryPropertyList option, except that when calling the save method, instead of saving to a file, the model will be securely saved in the keychain (meaning that every property will be individually encoded as a password in the keychain). This is a great option for models that represent user login credentials, or other secure data. Use of this option requires you to include the FXKeychain library. If your object contains classes that are not property list-safe, you will need to enabled the FXKeychain FXKEYCHAIN_USE_NSCODING option, which is off by default on Mac OS (but on by default on iOS). Note that the keychain has limited storage space, so you should not use this for storing large amounts of secure data (for that, try the BMFileFormatCryptoCoding option instead).
     
     BMFileFormatCryptoCoding
     
@@ -234,6 +237,15 @@ The BaseModel class is abstract, and is not designed to be instantiated directly
 
 Release Notes
 -------------------
+
+Version 2.6.3
+
+- Updated to improve performance when using FastCoding 2.3
+- Updated tests to use Travis CI
+
+Version 2.6.2
+
+- Fixed bug when serialising sub-objects using FXKeychain
 
 Version 2.6.1
 

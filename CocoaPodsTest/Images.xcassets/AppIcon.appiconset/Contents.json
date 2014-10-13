@@ -13,7 +13,7 @@
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "mmi_logo.png",
+      "filename" : "mmi logo.png",
       "scale" : "2x"
     },
     {
@@ -42,13 +42,15 @@
       "scale" : "2x"
     },
     {
-      "idiom" : "ipad",
       "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "mmi_logo_76.png",
       "scale" : "1x"
     },
     {
-      "idiom" : "ipad",
       "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "mmi_logo_152.png",
       "scale" : "2x"
     }
   ],

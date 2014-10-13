@@ -22,7 +22,7 @@
 		<key>77F9340478E266762871569C97D9362BF8126FAA</key>
 		<string>..</string>
 		<key>955A6D0FFF8BC6BB18B36FFBFCB6225A387F50A6</key>
-		<string>../submodule-activity-asr/</string>
+		<string>../submodule-activity-asr</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/owenwuef/CocoaPodsTest.git</string>
