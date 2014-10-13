@@ -1,0 +1,53 @@
+PODS:
+  - AFNetworking (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.4.1)
+  - AFNetworking/Security (2.4.1)
+  - AFNetworking/Serialization (2.4.1)
+  - AFNetworking/UIKit (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BaseModel (2.6.3)
+  - CocoaLumberjack (2.0.0-beta2):
+    - CocoaLumberjack/CLI
+    - CocoaLumberjack/Core
+    - CocoaLumberjack/Extensions
+  - CocoaLumberjack/CLI (2.0.0-beta2):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Core (2.0.0-beta2)
+  - CocoaLumberjack/Extensions (2.0.0-beta2):
+    - CocoaLumberjack/Core
+  - GoogleAnalytics-iOS-SDK (3.0.9)
+  - Reachability (3.1.1)
+  - Selene (1.0.3)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BaseModel
+  - CocoaLumberjack
+  - GoogleAnalytics-iOS-SDK
+  - Reachability
+  - Selene
+
+SPEC CHECKSUMS:
+  AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
+  BaseModel: b3a407ff22a7c38a51cb5306988fe6d4e6f9bf1d
+  CocoaLumberjack: 956d3fb98fed498a13d56499f262c975ef431c98
+  GoogleAnalytics-iOS-SDK: d9e198b1f955259a72886769be7377cdfcdb2250
+  Reachability: 8e9635e3cb4f98e7f825e51147f677ecc694d0e7
+  Selene: a010080b24a418b5dce235fca1006e183b9800b4
+
+COCOAPODS: 0.33.1
