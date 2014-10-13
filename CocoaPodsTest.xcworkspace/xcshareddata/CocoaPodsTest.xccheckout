@@ -12,6 +12,8 @@
 	<dict>
 		<key>77F9340478E266762871569C97D9362BF8126FAA</key>
 		<string>https://github.com/owenwuef/CocoaPodsTest.git</string>
+		<key>955A6D0FFF8BC6BB18B36FFBFCB6225A387F50A6</key>
+		<string>https://Owen.Wu@stash.englishtown.com/scm/mobile/submodule-activity-asr.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>CocoaPodsTest.xcworkspace</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>77F9340478E266762871569C97D9362BF8126FAA</key>
 		<string>..</string>
+		<key>955A6D0FFF8BC6BB18B36FFBFCB6225A387F50A6</key>
+		<string>../submodule-activity-asr/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/owenwuef/CocoaPodsTest.git</string>
@@ -35,6 +39,14 @@
 			<string>77F9340478E266762871569C97D9362BF8126FAA</string>
 			<key>IDESourceControlWCCName</key>
 			<string>CocoaPodsTest</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>955A6D0FFF8BC6BB18B36FFBFCB6225A387F50A6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>submodule-activity-asr</string>
 		</dict>
 	</array>
 </dict>

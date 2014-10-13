@@ -89,6 +89,13 @@
 		1389CC0619BEA80400F9C591 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1389CC0519BEA80400F9C591 /* AVFoundation.framework */; };
 		1389CC0919BEAB4000F9C591 /* CPTLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1389CC0819BEAB4000F9C591 /* CPTLocationViewController.m */; };
 		1389CC0B19BEAB5300F9C591 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1389CC0A19BEAB5300F9C591 /* MapKit.framework */; };
+		13A36F2119EBB0AB00BF4A27 /* EFASREngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A36F1519EBB0AB00BF4A27 /* EFASREngine.m */; };
+		13A36F2219EBB0AB00BF4A27 /* ETBase64Encoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A36F1719EBB0AB00BF4A27 /* ETBase64Encoder.m */; };
+		13A36F2319EBB0AB00BF4A27 /* ETRecordStopTimerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A36F1919EBB0AB00BF4A27 /* ETRecordStopTimerInfo.m */; };
+		13A36F2419EBB0AB00BF4A27 /* EFTPEngineWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13A36F1D19EBB0AB00BF4A27 /* EFTPEngineWrapper.mm */; };
+		13A36F2519EBB0AB00BF4A27 /* libASR_library_iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A36F1E19EBB0AB00BF4A27 /* libASR_library_iPhone.a */; };
+		13A36F2619EBB0AB00BF4A27 /* libASR_library_iPhone_sim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A36F1F19EBB0AB00BF4A27 /* libASR_library_iPhone_sim.a */; };
+		13A36F2719EBB0AB00BF4A27 /* TPEngineCoreKB.bin in Resources */ = {isa = PBXBuildFile; fileRef = 13A36F2019EBB0AB00BF4A27 /* TPEngineCoreKB.bin */; };
 		13EA946F19B85866005DEF59 /* CPTTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EA946E19B85866005DEF59 /* CPTTabViewController.m */; };
 		8B9E4C2B159A478E995E1229 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC4C49E3015469F911A8F10 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -201,6 +208,18 @@
 		1389CC0719BEAB4000F9C591 /* CPTLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLocationViewController.h; sourceTree = "<group>"; };
 		1389CC0819BEAB4000F9C591 /* CPTLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTLocationViewController.m; sourceTree = "<group>"; };
 		1389CC0A19BEAB5300F9C591 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		13A36F1419EBB0AB00BF4A27 /* EFASREngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFASREngine.h; sourceTree = "<group>"; };
+		13A36F1519EBB0AB00BF4A27 /* EFASREngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFASREngine.m; sourceTree = "<group>"; };
+		13A36F1619EBB0AB00BF4A27 /* ETBase64Encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETBase64Encoder.h; sourceTree = "<group>"; };
+		13A36F1719EBB0AB00BF4A27 /* ETBase64Encoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETBase64Encoder.m; sourceTree = "<group>"; };
+		13A36F1819EBB0AB00BF4A27 /* ETRecordStopTimerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETRecordStopTimerInfo.h; sourceTree = "<group>"; };
+		13A36F1919EBB0AB00BF4A27 /* ETRecordStopTimerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETRecordStopTimerInfo.m; sourceTree = "<group>"; };
+		13A36F1B19EBB0AB00BF4A27 /* EFTPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFTPEngine.h; sourceTree = "<group>"; };
+		13A36F1C19EBB0AB00BF4A27 /* EFTPEngineWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFTPEngineWrapper.h; sourceTree = "<group>"; };
+		13A36F1D19EBB0AB00BF4A27 /* EFTPEngineWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EFTPEngineWrapper.mm; sourceTree = "<group>"; };
+		13A36F1E19EBB0AB00BF4A27 /* libASR_library_iPhone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libASR_library_iPhone.a; sourceTree = "<group>"; };
+		13A36F1F19EBB0AB00BF4A27 /* libASR_library_iPhone_sim.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libASR_library_iPhone_sim.a; sourceTree = "<group>"; };
+		13A36F2019EBB0AB00BF4A27 /* TPEngineCoreKB.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = TPEngineCoreKB.bin; sourceTree = "<group>"; };
 		13EA946D19B85866005DEF59 /* CPTTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTabViewController.h; sourceTree = "<group>"; };
 		13EA946E19B85866005DEF59 /* CPTTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTTabViewController.m; sourceTree = "<group>"; };
 		19BE74D539C14B479DE0D0A9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -215,11 +234,13 @@
 				1389CC0B19BEAB5300F9C591 /* MapKit.framework in Frameworks */,
 				1389CC0619BEA80400F9C591 /* AVFoundation.framework in Frameworks */,
 				13396D8E19B85E1900565CEB /* CFNetwork.framework in Frameworks */,
+				13A36F2619EBB0AB00BF4A27 /* libASR_library_iPhone_sim.a in Frameworks */,
 				1304DD31190E3E5A009EACCE /* CoreLocation.framework in Frameworks */,
 				1386382F18CD9786000E6A8F /* CoreGraphics.framework in Frameworks */,
 				1386383118CD9786000E6A8F /* UIKit.framework in Frameworks */,
 				1386382D18CD9786000E6A8F /* Foundation.framework in Frameworks */,
 				8B9E4C2B159A478E995E1229 /* libPods.a in Frameworks */,
+				13A36F2519EBB0AB00BF4A27 /* libASR_library_iPhone.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +259,7 @@
 		1386382018CD9786000E6A8F = {
 			isa = PBXGroup;
 			children = (
+				13A36F1319EBB0AB00BF4A27 /* submodule-activity-asr */,
 				1386383218CD9786000E6A8F /* CocoaPodsTest */,
 				1386385418CD9786000E6A8F /* CocoaPodsTestTests */,
 				1386382B18CD9786000E6A8F /* Frameworks */,
@@ -410,6 +432,33 @@
 			path = thumb;
 			sourceTree = "<group>";
 		};
+		13A36F1319EBB0AB00BF4A27 /* submodule-activity-asr */ = {
+			isa = PBXGroup;
+			children = (
+				13A36F1419EBB0AB00BF4A27 /* EFASREngine.h */,
+				13A36F1519EBB0AB00BF4A27 /* EFASREngine.m */,
+				13A36F1619EBB0AB00BF4A27 /* ETBase64Encoder.h */,
+				13A36F1719EBB0AB00BF4A27 /* ETBase64Encoder.m */,
+				13A36F1819EBB0AB00BF4A27 /* ETRecordStopTimerInfo.h */,
+				13A36F1919EBB0AB00BF4A27 /* ETRecordStopTimerInfo.m */,
+				13A36F1A19EBB0AB00BF4A27 /* TPASR_SDK */,
+			);
+			path = "submodule-activity-asr";
+			sourceTree = "<group>";
+		};
+		13A36F1A19EBB0AB00BF4A27 /* TPASR_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				13A36F1B19EBB0AB00BF4A27 /* EFTPEngine.h */,
+				13A36F1C19EBB0AB00BF4A27 /* EFTPEngineWrapper.h */,
+				13A36F1D19EBB0AB00BF4A27 /* EFTPEngineWrapper.mm */,
+				13A36F1E19EBB0AB00BF4A27 /* libASR_library_iPhone.a */,
+				13A36F1F19EBB0AB00BF4A27 /* libASR_library_iPhone_sim.a */,
+				13A36F2019EBB0AB00BF4A27 /* TPEngineCoreKB.bin */,
+			);
+			path = TPASR_SDK;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -487,6 +536,7 @@
 				1386386618CD9F48000E6A8F /* Main_iPhone.storyboard in Resources */,
 				138638D718CDB567000E6A8F /* 8_full.JPG in Resources */,
 				138638D618CDB567000E6A8F /* 7_full.JPG in Resources */,
+				13A36F2719EBB0AB00BF4A27 /* TPEngineCoreKB.bin in Resources */,
 				138638C618CDB567000E6A8F /* 21_full.JPG in Resources */,
 				138638E918CDB567000E6A8F /* 23.JPG in Resources */,
 				138638E818CDB567000E6A8F /* 22.JPG in Resources */,
@@ -589,12 +639,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1389CC0419BEA6CC00F9C591 /* CPTScanQRViewController.m in Sources */,
+				13A36F2419EBB0AB00BF4A27 /* EFTPEngineWrapper.mm in Sources */,
 				1386383D18CD9786000E6A8F /* CPTAppDelegate.m in Sources */,
+				13A36F2219EBB0AB00BF4A27 /* ETBase64Encoder.m in Sources */,
 				1389CC0919BEAB4000F9C591 /* CPTLocationViewController.m in Sources */,
 				1386383918CD9786000E6A8F /* main.m in Sources */,
+				13A36F2319EBB0AB00BF4A27 /* ETRecordStopTimerInfo.m in Sources */,
 				1386384618CD9786000E6A8F /* CPTViewController.m in Sources */,
 				1304DD3C190E47F6009EACCE /* CPTItem.m in Sources */,
 				13EA946F19B85866005DEF59 /* CPTTabViewController.m in Sources */,
+				13A36F2119EBB0AB00BF4A27 /* EFASREngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,6 +768,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 19BE74D539C14B479DE0D0A9 /* Pods.xcconfig */;
 			buildSettings = {
+				ARCHS = armv7;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -721,9 +776,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaPodsTest/CocoaPodsTest-Prefix.pch";
 				INFOPLIST_FILE = "CocoaPodsTest/CocoaPodsTest-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/submodule-activity-asr/TPASR_SDK",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -732,6 +793,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 19BE74D539C14B479DE0D0A9 /* Pods.xcconfig */;
 			buildSettings = {
+				ARCHS = armv7;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -739,9 +801,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaPodsTest/CocoaPodsTest-Prefix.pch";
 				INFOPLIST_FILE = "CocoaPodsTest/CocoaPodsTest-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/submodule-activity-asr/TPASR_SDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
