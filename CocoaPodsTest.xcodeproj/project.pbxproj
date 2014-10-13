@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13024F4919EBD055004BBF31 /* EFASREngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 13024F3D19EBD055004BBF31 /* EFASREngine.m */; };
+		13024F4A19EBD055004BBF31 /* ETBase64Encoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 13024F3F19EBD055004BBF31 /* ETBase64Encoder.m */; };
+		13024F4B19EBD055004BBF31 /* ETRecordStopTimerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 13024F4119EBD055004BBF31 /* ETRecordStopTimerInfo.m */; };
+		13024F4C19EBD055004BBF31 /* EFTPEngineWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13024F4519EBD055004BBF31 /* EFTPEngineWrapper.mm */; };
+		13024F4D19EBD055004BBF31 /* libASR_library_iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13024F4619EBD055004BBF31 /* libASR_library_iPhone.a */; };
+		13024F4E19EBD055004BBF31 /* libASR_library_iPhone_sim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13024F4719EBD055004BBF31 /* libASR_library_iPhone_sim.a */; };
+		13024F4F19EBD055004BBF31 /* TPEngineCoreKB.bin in Resources */ = {isa = PBXBuildFile; fileRef = 13024F4819EBD055004BBF31 /* TPEngineCoreKB.bin */; };
 		1304DD31190E3E5A009EACCE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1304DD30190E3E5A009EACCE /* CoreLocation.framework */; };
 		1304DD33190E3EF1009EACCE /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 1304DD32190E3EF1009EACCE /* sample.json */; };
 		1304DD3C190E47F6009EACCE /* CPTItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1304DD3B190E47F6009EACCE /* CPTItem.m */; };
@@ -107,6 +114,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		13024F3C19EBD055004BBF31 /* EFASREngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFASREngine.h; sourceTree = "<group>"; };
+		13024F3D19EBD055004BBF31 /* EFASREngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFASREngine.m; sourceTree = "<group>"; };
+		13024F3E19EBD055004BBF31 /* ETBase64Encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETBase64Encoder.h; sourceTree = "<group>"; };
+		13024F3F19EBD055004BBF31 /* ETBase64Encoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETBase64Encoder.m; sourceTree = "<group>"; };
+		13024F4019EBD055004BBF31 /* ETRecordStopTimerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETRecordStopTimerInfo.h; sourceTree = "<group>"; };
+		13024F4119EBD055004BBF31 /* ETRecordStopTimerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETRecordStopTimerInfo.m; sourceTree = "<group>"; };
+		13024F4319EBD055004BBF31 /* EFTPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFTPEngine.h; sourceTree = "<group>"; };
+		13024F4419EBD055004BBF31 /* EFTPEngineWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFTPEngineWrapper.h; sourceTree = "<group>"; };
+		13024F4519EBD055004BBF31 /* EFTPEngineWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EFTPEngineWrapper.mm; sourceTree = "<group>"; };
+		13024F4619EBD055004BBF31 /* libASR_library_iPhone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libASR_library_iPhone.a; sourceTree = "<group>"; };
+		13024F4719EBD055004BBF31 /* libASR_library_iPhone_sim.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libASR_library_iPhone_sim.a; sourceTree = "<group>"; };
+		13024F4819EBD055004BBF31 /* TPEngineCoreKB.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = TPEngineCoreKB.bin; sourceTree = "<group>"; };
 		1304DD30190E3E5A009EACCE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		1304DD32190E3EF1009EACCE /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
 		1304DD3A190E47F6009EACCE /* CPTItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTItem.h; sourceTree = "<group>"; };
@@ -214,17 +233,46 @@
 				1389CC0B19BEAB5300F9C591 /* MapKit.framework in Frameworks */,
 				1389CC0619BEA80400F9C591 /* AVFoundation.framework in Frameworks */,
 				13396D8E19B85E1900565CEB /* CFNetwork.framework in Frameworks */,
+				13024F4E19EBD055004BBF31 /* libASR_library_iPhone_sim.a in Frameworks */,
 				1304DD31190E3E5A009EACCE /* CoreLocation.framework in Frameworks */,
 				1386382F18CD9786000E6A8F /* CoreGraphics.framework in Frameworks */,
 				1386383118CD9786000E6A8F /* UIKit.framework in Frameworks */,
 				1386382D18CD9786000E6A8F /* Foundation.framework in Frameworks */,
 				8B9E4C2B159A478E995E1229 /* libPods.a in Frameworks */,
+				13024F4D19EBD055004BBF31 /* libASR_library_iPhone.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13024F3B19EBD055004BBF31 /* submodule-activity-asr */ = {
+			isa = PBXGroup;
+			children = (
+				13024F3C19EBD055004BBF31 /* EFASREngine.h */,
+				13024F3D19EBD055004BBF31 /* EFASREngine.m */,
+				13024F3E19EBD055004BBF31 /* ETBase64Encoder.h */,
+				13024F3F19EBD055004BBF31 /* ETBase64Encoder.m */,
+				13024F4019EBD055004BBF31 /* ETRecordStopTimerInfo.h */,
+				13024F4119EBD055004BBF31 /* ETRecordStopTimerInfo.m */,
+				13024F4219EBD055004BBF31 /* TPASR_SDK */,
+			);
+			path = "submodule-activity-asr";
+			sourceTree = "<group>";
+		};
+		13024F4219EBD055004BBF31 /* TPASR_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				13024F4319EBD055004BBF31 /* EFTPEngine.h */,
+				13024F4419EBD055004BBF31 /* EFTPEngineWrapper.h */,
+				13024F4519EBD055004BBF31 /* EFTPEngineWrapper.mm */,
+				13024F4619EBD055004BBF31 /* libASR_library_iPhone.a */,
+				13024F4719EBD055004BBF31 /* libASR_library_iPhone_sim.a */,
+				13024F4819EBD055004BBF31 /* TPEngineCoreKB.bin */,
+			);
+			path = TPASR_SDK;
+			sourceTree = "<group>";
+		};
 		1304DD39190E47F6009EACCE /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,6 +285,7 @@
 		1386382018CD9786000E6A8F = {
 			isa = PBXGroup;
 			children = (
+				13024F3B19EBD055004BBF31 /* submodule-activity-asr */,
 				1386383218CD9786000E6A8F /* CocoaPodsTest */,
 				1386385418CD9786000E6A8F /* CocoaPodsTestTests */,
 				1386382B18CD9786000E6A8F /* Frameworks */,
@@ -485,6 +534,7 @@
 				1386386618CD9F48000E6A8F /* Main_iPhone.storyboard in Resources */,
 				138638D718CDB567000E6A8F /* 8_full.JPG in Resources */,
 				138638D618CDB567000E6A8F /* 7_full.JPG in Resources */,
+				13024F4F19EBD055004BBF31 /* TPEngineCoreKB.bin in Resources */,
 				138638C618CDB567000E6A8F /* 21_full.JPG in Resources */,
 				138638E918CDB567000E6A8F /* 23.JPG in Resources */,
 				138638E818CDB567000E6A8F /* 22.JPG in Resources */,
@@ -587,12 +637,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1389CC0419BEA6CC00F9C591 /* CPTScanQRViewController.m in Sources */,
+				13024F4C19EBD055004BBF31 /* EFTPEngineWrapper.mm in Sources */,
 				1386383D18CD9786000E6A8F /* CPTAppDelegate.m in Sources */,
+				13024F4A19EBD055004BBF31 /* ETBase64Encoder.m in Sources */,
 				1389CC0919BEAB4000F9C591 /* CPTLocationViewController.m in Sources */,
 				1386383918CD9786000E6A8F /* main.m in Sources */,
+				13024F4B19EBD055004BBF31 /* ETRecordStopTimerInfo.m in Sources */,
 				1386384618CD9786000E6A8F /* CPTViewController.m in Sources */,
 				1304DD3C190E47F6009EACCE /* CPTItem.m in Sources */,
 				13EA946F19B85866005DEF59 /* CPTTabViewController.m in Sources */,
+				13024F4919EBD055004BBF31 /* EFASREngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,7 +721,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = scanfind;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -726,7 +780,7 @@
 					"$(PROJECT_DIR)/submodule-activity-asr/TPASR_SDK",
 					"$(PROJECT_DIR)/CocoaPodsTest/submodule-activity-asr/TPASR_SDK",
 				);
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = armv7;
