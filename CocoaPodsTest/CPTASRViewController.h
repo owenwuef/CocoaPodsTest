@@ -17,6 +17,7 @@
     // inside the ViewController implementation in the method viewDidLoad.
     
     OpenEarsEventsObserver *openEarsEventsObserver; // A class whose delegate methods which will allow us to stay informed of changes in the Flite and Pocketsphinx statuses.
+    
     PocketsphinxController *pocketsphinxController; // The controller for Pocketsphinx (voice recognition).
     
     // Our NSTimer that will help us read and display the input and output levels without locking the UI

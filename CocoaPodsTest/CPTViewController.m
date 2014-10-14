@@ -16,7 +16,7 @@
 
 #import "CPTLocationViewController.h"
 
-#import "CPTASRViewController.h"
+//#import "CPTASRViewController.h"
 
 @interface CPTViewController (){
     CPTTabViewController *theTabViewController;
@@ -25,7 +25,7 @@
     
     CPTLocationViewController *locationsViewController;
     
-    CPTASRViewController *asrViewController;
+//    CPTASRViewController *asrViewController;
 }
 #pragma mark - UI Extras
 @property (weak, nonatomic) IBOutlet UIWebView *logInWebView;
@@ -42,7 +42,7 @@
     theTabViewController = [[CPTTabViewController alloc] init];
     theScanQRViewController = [[CPTScanQRViewController alloc] init];
     locationsViewController = [[CPTLocationViewController alloc] init];
-    asrViewController = [[CPTASRViewController alloc] init];
+//    asrViewController = [[CPTASRViewController alloc] init];
 }
 
 
@@ -128,8 +128,8 @@
 //            }];
             break;
         case 3:
-            [self presentViewController:asrViewController animated:YES completion:^(){
-            }];
+//            [self presentViewController:asrViewController animated:YES completion:^(){
+//            }];
             break;
             
         default:
