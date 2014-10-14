@@ -10,12 +10,7 @@
 		1304DD31190E3E5A009EACCE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1304DD30190E3E5A009EACCE /* CoreLocation.framework */; };
 		1304DD33190E3EF1009EACCE /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 1304DD32190E3EF1009EACCE /* sample.json */; };
 		1304DD3C190E47F6009EACCE /* CPTItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1304DD3B190E47F6009EACCE /* CPTItem.m */; };
-		13147BCC19ECC45900EBCB46 /* EFASREngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 13147BC019ECC45900EBCB46 /* EFASREngine.m */; };
-		13147BCD19ECC45900EBCB46 /* ETBase64Encoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 13147BC219ECC45900EBCB46 /* ETBase64Encoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		13147BCE19ECC45900EBCB46 /* ETRecordStopTimerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 13147BC419ECC45900EBCB46 /* ETRecordStopTimerInfo.m */; };
-		13147BCF19ECC45900EBCB46 /* EFTPEngineWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13147BC819ECC45900EBCB46 /* EFTPEngineWrapper.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		13147BD119ECC45A00EBCB46 /* libASR_library_iPhone_sim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13147BCA19ECC45900EBCB46 /* libASR_library_iPhone_sim.a */; };
-		13147BD219ECC45A00EBCB46 /* TPEngineCoreKB.bin in Resources */ = {isa = PBXBuildFile; fileRef = 13147BCB19ECC45900EBCB46 /* TPEngineCoreKB.bin */; };
+		13147BD519ECCA6100EBCB46 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13147BD419ECCA6100EBCB46 /* AudioToolbox.framework */; };
 		13396D8E19B85E1900565CEB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13396D8D19B85E1900565CEB /* CFNetwork.framework */; };
 		1386382D18CD9786000E6A8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1386382C18CD9786000E6A8F /* Foundation.framework */; };
 		1386382F18CD9786000E6A8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1386382E18CD9786000E6A8F /* CoreGraphics.framework */; };
@@ -25,8 +20,6 @@
 		1386383D18CD9786000E6A8F /* CPTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1386383C18CD9786000E6A8F /* CPTAppDelegate.m */; };
 		1386384618CD9786000E6A8F /* CPTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1386384518CD9786000E6A8F /* CPTViewController.m */; };
 		1386384818CD9786000E6A8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1386384718CD9786000E6A8F /* Images.xcassets */; };
-		1386386618CD9F48000E6A8F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1386383E18CD9786000E6A8F /* Main_iPhone.storyboard */; };
-		1386386718CD9F4D000E6A8F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1386384118CD9786000E6A8F /* Main_iPad.storyboard */; };
 		138638B918CDB567000E6A8F /* 0_full.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1386387318CDB566000E6A8F /* 0_full.JPG */; };
 		138638BA18CDB567000E6A8F /* 10_full.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1386387418CDB566000E6A8F /* 10_full.JPG */; };
 		138638BB18CDB567000E6A8F /* 11_full.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1386387518CDB566000E6A8F /* 11_full.JPG */; };
@@ -95,8 +88,10 @@
 		1389CC0619BEA80400F9C591 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1389CC0519BEA80400F9C591 /* AVFoundation.framework */; };
 		1389CC0919BEAB4000F9C591 /* CPTLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1389CC0819BEAB4000F9C591 /* CPTLocationViewController.m */; };
 		1389CC0B19BEAB5300F9C591 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1389CC0A19BEAB5300F9C591 /* MapKit.framework */; };
+		13D69D0A19ECD40A00DA309A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1386384118CD9786000E6A8F /* Main_iPad.storyboard */; };
+		13D69D0B19ECD40D00DA309A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1386383E18CD9786000E6A8F /* Main_iPhone.storyboard */; };
 		13EA946F19B85866005DEF59 /* CPTTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EA946E19B85866005DEF59 /* CPTTabViewController.m */; };
-		8B9E4C2B159A478E995E1229 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC4C49E3015469F911A8F10 /* libPods.a */; };
+		BF29B4F633F349EB8CEB6871 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67001F2142524113B8E638C4 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -117,18 +112,7 @@
 		1304DD32190E3EF1009EACCE /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
 		1304DD3A190E47F6009EACCE /* CPTItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTItem.h; sourceTree = "<group>"; };
 		1304DD3B190E47F6009EACCE /* CPTItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTItem.m; sourceTree = "<group>"; };
-		13147BBF19ECC45900EBCB46 /* EFASREngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFASREngine.h; sourceTree = "<group>"; };
-		13147BC019ECC45900EBCB46 /* EFASREngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFASREngine.m; sourceTree = "<group>"; };
-		13147BC119ECC45900EBCB46 /* ETBase64Encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETBase64Encoder.h; sourceTree = "<group>"; };
-		13147BC219ECC45900EBCB46 /* ETBase64Encoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETBase64Encoder.m; sourceTree = "<group>"; };
-		13147BC319ECC45900EBCB46 /* ETRecordStopTimerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETRecordStopTimerInfo.h; sourceTree = "<group>"; };
-		13147BC419ECC45900EBCB46 /* ETRecordStopTimerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETRecordStopTimerInfo.m; sourceTree = "<group>"; };
-		13147BC619ECC45900EBCB46 /* EFTPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFTPEngine.h; sourceTree = "<group>"; };
-		13147BC719ECC45900EBCB46 /* EFTPEngineWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFTPEngineWrapper.h; sourceTree = "<group>"; };
-		13147BC819ECC45900EBCB46 /* EFTPEngineWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EFTPEngineWrapper.mm; sourceTree = "<group>"; };
-		13147BC919ECC45900EBCB46 /* libASR_library_iPhone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libASR_library_iPhone.a; sourceTree = "<group>"; };
-		13147BCA19ECC45900EBCB46 /* libASR_library_iPhone_sim.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libASR_library_iPhone_sim.a; sourceTree = "<group>"; };
-		13147BCB19ECC45900EBCB46 /* TPEngineCoreKB.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = TPEngineCoreKB.bin; sourceTree = "<group>"; };
+		13147BD419ECCA6100EBCB46 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		13396D8D19B85E1900565CEB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		1386382918CD9786000E6A8F /* CocoaPodsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaPodsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1386382C18CD9786000E6A8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -221,7 +205,7 @@
 		13EA946D19B85866005DEF59 /* CPTTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTabViewController.h; sourceTree = "<group>"; };
 		13EA946E19B85866005DEF59 /* CPTTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTTabViewController.m; sourceTree = "<group>"; };
 		19BE74D539C14B479DE0D0A9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		BDC4C49E3015469F911A8F10 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		67001F2142524113B8E638C4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,15 +213,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13147BD519ECCA6100EBCB46 /* AudioToolbox.framework in Frameworks */,
 				1389CC0B19BEAB5300F9C591 /* MapKit.framework in Frameworks */,
-				1389CC0619BEA80400F9C591 /* AVFoundation.framework in Frameworks */,
 				13396D8E19B85E1900565CEB /* CFNetwork.framework in Frameworks */,
-				13147BD119ECC45A00EBCB46 /* libASR_library_iPhone_sim.a in Frameworks */,
+				1389CC0619BEA80400F9C591 /* AVFoundation.framework in Frameworks */,
 				1304DD31190E3E5A009EACCE /* CoreLocation.framework in Frameworks */,
 				1386382F18CD9786000E6A8F /* CoreGraphics.framework in Frameworks */,
 				1386383118CD9786000E6A8F /* UIKit.framework in Frameworks */,
 				1386382D18CD9786000E6A8F /* Foundation.framework in Frameworks */,
-				8B9E4C2B159A478E995E1229 /* libPods.a in Frameworks */,
+				BF29B4F633F349EB8CEB6871 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,33 +235,6 @@
 				1304DD3B190E47F6009EACCE /* CPTItem.m */,
 			);
 			path = DataModel;
-			sourceTree = "<group>";
-		};
-		13147BBE19ECC45900EBCB46 /* submodule-activity-asr */ = {
-			isa = PBXGroup;
-			children = (
-				13147BBF19ECC45900EBCB46 /* EFASREngine.h */,
-				13147BC019ECC45900EBCB46 /* EFASREngine.m */,
-				13147BC119ECC45900EBCB46 /* ETBase64Encoder.h */,
-				13147BC219ECC45900EBCB46 /* ETBase64Encoder.m */,
-				13147BC319ECC45900EBCB46 /* ETRecordStopTimerInfo.h */,
-				13147BC419ECC45900EBCB46 /* ETRecordStopTimerInfo.m */,
-				13147BC519ECC45900EBCB46 /* TPASR_SDK */,
-			);
-			path = "submodule-activity-asr";
-			sourceTree = "<group>";
-		};
-		13147BC519ECC45900EBCB46 /* TPASR_SDK */ = {
-			isa = PBXGroup;
-			children = (
-				13147BC619ECC45900EBCB46 /* EFTPEngine.h */,
-				13147BC719ECC45900EBCB46 /* EFTPEngineWrapper.h */,
-				13147BC819ECC45900EBCB46 /* EFTPEngineWrapper.mm */,
-				13147BC919ECC45900EBCB46 /* libASR_library_iPhone.a */,
-				13147BCA19ECC45900EBCB46 /* libASR_library_iPhone_sim.a */,
-				13147BCB19ECC45900EBCB46 /* TPEngineCoreKB.bin */,
-			);
-			path = TPASR_SDK;
 			sourceTree = "<group>";
 		};
 		1386382018CD9786000E6A8F = {
@@ -302,6 +259,7 @@
 		1386382B18CD9786000E6A8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				13147BD419ECCA6100EBCB46 /* AudioToolbox.framework */,
 				1389CC0A19BEAB5300F9C591 /* MapKit.framework */,
 				1389CC0519BEA80400F9C591 /* AVFoundation.framework */,
 				13396D8D19B85E1900565CEB /* CFNetwork.framework */,
@@ -309,7 +267,7 @@
 				1386382C18CD9786000E6A8F /* Foundation.framework */,
 				1386382E18CD9786000E6A8F /* CoreGraphics.framework */,
 				1386383018CD9786000E6A8F /* UIKit.framework */,
-				BDC4C49E3015469F911A8F10 /* libPods.a */,
+				67001F2142524113B8E638C4 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -317,7 +275,6 @@
 		1386383218CD9786000E6A8F /* CocoaPodsTest */ = {
 			isa = PBXGroup;
 			children = (
-				13147BBE19ECC45900EBCB46 /* submodule-activity-asr */,
 				1304DD39190E47F6009EACCE /* DataModel */,
 				1386383E18CD9786000E6A8F /* Main_iPhone.storyboard */,
 				1386384118CD9786000E6A8F /* Main_iPad.storyboard */,
@@ -492,7 +449,7 @@
 						DevelopmentTeam = 9LKTDJ838G;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -521,18 +478,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13D69D0B19ECD40D00DA309A /* Main_iPhone.storyboard in Resources */,
+				13D69D0A19ECD40A00DA309A /* Main_iPad.storyboard in Resources */,
 				138638EF18CDB567000E6A8F /* 29.JPG in Resources */,
 				138638E518CDB567000E6A8F /* 2.JPG in Resources */,
 				138638F118CDB567000E6A8F /* 30.JPG in Resources */,
 				138638DD18CDB567000E6A8F /* 12.JPG in Resources */,
 				138638C718CDB567000E6A8F /* 22_full.JPG in Resources */,
-				1386386718CD9F4D000E6A8F /* Main_iPad.storyboard in Resources */,
 				138638F618CDB567000E6A8F /* 7.JPG in Resources */,
 				138638F218CDB567000E6A8F /* 31.JPG in Resources */,
-				1386386618CD9F48000E6A8F /* Main_iPhone.storyboard in Resources */,
 				138638D718CDB567000E6A8F /* 8_full.JPG in Resources */,
 				138638D618CDB567000E6A8F /* 7_full.JPG in Resources */,
-				13147BD219ECC45A00EBCB46 /* TPEngineCoreKB.bin in Resources */,
 				138638C618CDB567000E6A8F /* 21_full.JPG in Resources */,
 				138638E918CDB567000E6A8F /* 23.JPG in Resources */,
 				138638E818CDB567000E6A8F /* 22.JPG in Resources */,
@@ -599,7 +555,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		37247D890F7B4245A5411661 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -614,7 +570,7 @@
 		};
 		3B1CFEA0B7DB424B984D7DA3 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -635,16 +591,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1389CC0419BEA6CC00F9C591 /* CPTScanQRViewController.m in Sources */,
-				13147BCF19ECC45900EBCB46 /* EFTPEngineWrapper.mm in Sources */,
 				1386383D18CD9786000E6A8F /* CPTAppDelegate.m in Sources */,
-				13147BCD19ECC45900EBCB46 /* ETBase64Encoder.m in Sources */,
 				1389CC0919BEAB4000F9C591 /* CPTLocationViewController.m in Sources */,
 				1386383918CD9786000E6A8F /* main.m in Sources */,
-				13147BCE19ECC45900EBCB46 /* ETRecordStopTimerInfo.m in Sources */,
 				1386384618CD9786000E6A8F /* CPTViewController.m in Sources */,
 				1304DD3C190E47F6009EACCE /* CPTItem.m in Sources */,
 				13EA946F19B85866005DEF59 /* CPTTabViewController.m in Sources */,
-				13147BCC19ECC45900EBCB46 /* EFASREngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -719,7 +671,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = scanfind;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -753,6 +705,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = scanfind;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -767,6 +720,34 @@
 				ARCHS = armv7;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaPodsTest/CocoaPodsTest-Prefix.pch";
+				INFOPLIST_FILE = "CocoaPodsTest/CocoaPodsTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CocoaPodsTest/submodule-activity-asr/TPASR_SDK/**",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s armv64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1386386018CD9786000E6A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19BE74D539C14B479DE0D0A9 /* Pods.xcconfig */;
+			buildSettings = {
+				ARCHS = armv7;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -781,32 +762,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = armv7;
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		1386386018CD9786000E6A8F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19BE74D539C14B479DE0D0A9 /* Pods.xcconfig */;
-			buildSettings = {
-				ARCHS = armv7;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CocoaPodsTest/CocoaPodsTest-Prefix.pch";
-				INFOPLIST_FILE = "CocoaPodsTest/CocoaPodsTest-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/CocoaPodsTest/submodule-activity-asr/TPASR_SDK/**",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "armv7 armv7s armv64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
