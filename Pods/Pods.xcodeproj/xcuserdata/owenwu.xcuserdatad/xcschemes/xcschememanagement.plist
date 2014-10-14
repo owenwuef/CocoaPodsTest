@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Base64Encoder.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-BaseModel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -34,6 +39,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-TransitionKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,37 +52,47 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>21C999D5AC0E41CCAC5AFC7F</key>
+		<key>10C247F16BB54A93BD8C961A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3AA7A0697A0E4245AA0D7133</key>
+		<key>29CE668AB6254E53B9BC176E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>41926341396B41F2B0983B21</key>
+		<key>65711D21D2894094B0FB025D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>57EB1122346540CA9A677D77</key>
+		<key>8FA7BAC748494F69B1A7A084</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6C11AA22118A45759E049039</key>
+		<key>A776363EC6EE4F3EAAF3C6A0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8B15104761B04CA0A887AB85</key>
+		<key>C7ADA4052A5E428288C7B40A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C2589EA7CAC24040AEFB89A9</key>
+		<key>D019B9A02DAF4EA785712C98</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ED51B5A813E747EBB9EE092B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F1E22861D8A94ED2B85E01F8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

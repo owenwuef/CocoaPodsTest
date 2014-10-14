@@ -48,6 +48,12 @@
 #define COCOAPODS_VERSION_MINOR_AFNetworking_UIKit 4
 #define COCOAPODS_VERSION_PATCH_AFNetworking_UIKit 1
 
+// Base64Encoder
+#define COCOAPODS_POD_AVAILABLE_Base64Encoder
+#define COCOAPODS_VERSION_MAJOR_Base64Encoder 0
+#define COCOAPODS_VERSION_MINOR_Base64Encoder 0
+#define COCOAPODS_VERSION_PATCH_Base64Encoder 1
+
 // BaseModel
 #define COCOAPODS_POD_AVAILABLE_BaseModel
 #define COCOAPODS_VERSION_MAJOR_BaseModel 2
@@ -95,4 +101,10 @@
 #define COCOAPODS_VERSION_MAJOR_Selene 1
 #define COCOAPODS_VERSION_MINOR_Selene 0
 #define COCOAPODS_VERSION_PATCH_Selene 3
+
+// TransitionKit
+#define COCOAPODS_POD_AVAILABLE_TransitionKit
+#define COCOAPODS_VERSION_MAJOR_TransitionKit 2
+#define COCOAPODS_VERSION_MINOR_TransitionKit 0
+#define COCOAPODS_VERSION_PATCH_TransitionKit 0
 
