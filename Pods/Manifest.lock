@@ -32,6 +32,7 @@ PODS:
   - CocoaLumberjack/Extensions (2.0.0-beta2):
     - CocoaLumberjack/Core
   - GoogleAnalytics-iOS-SDK (3.0.9)
+  - PureLayout (1.1.0)
   - Reachability (3.1.1)
   - Selene (1.0.3)
   - TransitionKit (2.0.0)
@@ -42,6 +43,7 @@ DEPENDENCIES:
   - BaseModel
   - CocoaLumberjack
   - GoogleAnalytics-iOS-SDK
+  - PureLayout (~> 1.1.0)
   - Reachability
   - Selene
   - TransitionKit (~> 2.0.0)
@@ -56,6 +58,7 @@ SPEC CHECKSUMS:
   BaseModel: b3a407ff22a7c38a51cb5306988fe6d4e6f9bf1d
   CocoaLumberjack: 956d3fb98fed498a13d56499f262c975ef431c98
   GoogleAnalytics-iOS-SDK: d9e198b1f955259a72886769be7377cdfcdb2250
+  PureLayout: c8960fa0f3b40d849d5e177d699d0148faa63b63
   Reachability: 8e9635e3cb4f98e7f825e51147f677ecc694d0e7
   Selene: a010080b24a418b5dce235fca1006e183b9800b4
   TransitionKit: 7877021649a734f3239ed176b7967de29321dcf3

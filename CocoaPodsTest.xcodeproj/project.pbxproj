@@ -90,6 +90,11 @@
 		1389CC0B19BEAB5300F9C591 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1389CC0A19BEAB5300F9C591 /* MapKit.framework */; };
 		13D69D0A19ECD40A00DA309A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1386384118CD9786000E6A8F /* Main_iPad.storyboard */; };
 		13D69D0B19ECD40D00DA309A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1386383E18CD9786000E6A8F /* Main_iPhone.storyboard */; };
+		13D69D2619ECFC2A00DA309A /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13D69D2219ECFC2A00DA309A /* AcousticModelEnglish.bundle */; };
+		13D69D2719ECFC2A00DA309A /* AcousticModelSpanish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13D69D2319ECFC2A00DA309A /* AcousticModelSpanish.bundle */; };
+		13D69D2819ECFC2A00DA309A /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D69D2419ECFC2A00DA309A /* OpenEars.framework */; };
+		13D69D2919ECFC2A00DA309A /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D69D2519ECFC2A00DA309A /* Slt.framework */; };
+		13D69D2C19ECFF0B00DA309A /* CPTASRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D69D2B19ECFF0B00DA309A /* CPTASRViewController.m */; };
 		13EA946F19B85866005DEF59 /* CPTTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EA946E19B85866005DEF59 /* CPTTabViewController.m */; };
 		BF29B4F633F349EB8CEB6871 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67001F2142524113B8E638C4 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -202,6 +207,12 @@
 		1389CC0719BEAB4000F9C591 /* CPTLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLocationViewController.h; sourceTree = "<group>"; };
 		1389CC0819BEAB4000F9C591 /* CPTLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTLocationViewController.m; sourceTree = "<group>"; };
 		1389CC0A19BEAB5300F9C591 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		13D69D2219ECFC2A00DA309A /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		13D69D2319ECFC2A00DA309A /* AcousticModelSpanish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelSpanish.bundle; sourceTree = "<group>"; };
+		13D69D2419ECFC2A00DA309A /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		13D69D2519ECFC2A00DA309A /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+		13D69D2A19ECFF0B00DA309A /* CPTASRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTASRViewController.h; sourceTree = "<group>"; };
+		13D69D2B19ECFF0B00DA309A /* CPTASRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTASRViewController.m; sourceTree = "<group>"; };
 		13EA946D19B85866005DEF59 /* CPTTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTabViewController.h; sourceTree = "<group>"; };
 		13EA946E19B85866005DEF59 /* CPTTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTTabViewController.m; sourceTree = "<group>"; };
 		19BE74D539C14B479DE0D0A9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -218,8 +229,10 @@
 				13396D8E19B85E1900565CEB /* CFNetwork.framework in Frameworks */,
 				1389CC0619BEA80400F9C591 /* AVFoundation.framework in Frameworks */,
 				1304DD31190E3E5A009EACCE /* CoreLocation.framework in Frameworks */,
+				13D69D2919ECFC2A00DA309A /* Slt.framework in Frameworks */,
 				1386382F18CD9786000E6A8F /* CoreGraphics.framework in Frameworks */,
 				1386383118CD9786000E6A8F /* UIKit.framework in Frameworks */,
+				13D69D2819ECFC2A00DA309A /* OpenEars.framework in Frameworks */,
 				1386382D18CD9786000E6A8F /* Foundation.framework in Frameworks */,
 				BF29B4F633F349EB8CEB6871 /* libPods.a in Frameworks */,
 			);
@@ -240,6 +253,7 @@
 		1386382018CD9786000E6A8F = {
 			isa = PBXGroup;
 			children = (
+				13D69D2119ECFC2A00DA309A /* Framework */,
 				1386383218CD9786000E6A8F /* CocoaPodsTest */,
 				1386385418CD9786000E6A8F /* CocoaPodsTestTests */,
 				1386382B18CD9786000E6A8F /* Frameworks */,
@@ -291,6 +305,8 @@
 				1386384718CD9786000E6A8F /* Images.xcassets */,
 				1386386C18CDB566000E6A8F /* images */,
 				1386383318CD9786000E6A8F /* Supporting Files */,
+				13D69D2A19ECFF0B00DA309A /* CPTASRViewController.h */,
+				13D69D2B19ECFF0B00DA309A /* CPTASRViewController.m */,
 			);
 			path = CocoaPodsTest;
 			sourceTree = "<group>";
@@ -412,6 +428,17 @@
 			path = thumb;
 			sourceTree = "<group>";
 		};
+		13D69D2119ECFC2A00DA309A /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				13D69D2219ECFC2A00DA309A /* AcousticModelEnglish.bundle */,
+				13D69D2319ECFC2A00DA309A /* AcousticModelSpanish.bundle */,
+				13D69D2419ECFC2A00DA309A /* OpenEars.framework */,
+				13D69D2519ECFC2A00DA309A /* Slt.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -491,6 +518,7 @@
 				138638D618CDB567000E6A8F /* 7_full.JPG in Resources */,
 				138638C618CDB567000E6A8F /* 21_full.JPG in Resources */,
 				138638E918CDB567000E6A8F /* 23.JPG in Resources */,
+				13D69D2619ECFC2A00DA309A /* AcousticModelEnglish.bundle in Resources */,
 				138638E818CDB567000E6A8F /* 22.JPG in Resources */,
 				138638E718CDB567000E6A8F /* 21.JPG in Resources */,
 				138638D918CDB567000E6A8F /* 0.JPG in Resources */,
@@ -523,6 +551,7 @@
 				138638D018CDB567000E6A8F /* 30_full.JPG in Resources */,
 				138638E118CDB567000E6A8F /* 16.JPG in Resources */,
 				138638F318CDB567000E6A8F /* 4.JPG in Resources */,
+				13D69D2719ECFC2A00DA309A /* AcousticModelSpanish.bundle in Resources */,
 				138638DB18CDB567000E6A8F /* 10.JPG in Resources */,
 				138638BC18CDB567000E6A8F /* 12_full.JPG in Resources */,
 				1304DD33190E3EF1009EACCE /* sample.json in Resources */,
@@ -595,6 +624,7 @@
 				1389CC0919BEAB4000F9C591 /* CPTLocationViewController.m in Sources */,
 				1386383918CD9786000E6A8F /* main.m in Sources */,
 				1386384618CD9786000E6A8F /* CPTViewController.m in Sources */,
+				13D69D2C19ECFF0B00DA309A /* CPTASRViewController.m in Sources */,
 				1304DD3C190E47F6009EACCE /* CPTItem.m in Sources */,
 				13EA946F19B85866005DEF59 /* CPTTabViewController.m in Sources */,
 			);
@@ -723,6 +753,10 @@
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaPodsTest/CocoaPodsTest-Prefix.pch";
 				INFOPLIST_FILE = "CocoaPodsTest/CocoaPodsTest-Info.plist";
@@ -750,6 +784,10 @@
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CocoaPodsTest/CocoaPodsTest-Prefix.pch";
 				INFOPLIST_FILE = "CocoaPodsTest/CocoaPodsTest-Info.plist";
