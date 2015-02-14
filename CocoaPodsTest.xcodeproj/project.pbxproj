@@ -731,10 +731,7 @@
 				GCC_PREFIX_HEADER = "CocoaPodsTest/CocoaPodsTest-Prefix.pch";
 				INFOPLIST_FILE = "CocoaPodsTest/CocoaPodsTest-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/CocoaPodsTest/submodule-activity-asr/TPASR_SDK/**",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -762,10 +759,7 @@
 				GCC_PREFIX_HEADER = "CocoaPodsTest/CocoaPodsTest-Prefix.pch";
 				INFOPLIST_FILE = "CocoaPodsTest/CocoaPodsTest-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/CocoaPodsTest/submodule-activity-asr/TPASR_SDK/**",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
