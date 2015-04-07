@@ -34,6 +34,8 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+    DLog(@"LL %@",[NSThread currentThread]);
+
     if ([segue.identifier isEqualToString:@"pushToDetail"])
     {
         // Get the destination view controller and set the placemark data that it should display.
@@ -47,6 +49,8 @@
     // Center the map the first time we get a real location change.
     static dispatch_once_t centerMapFirstTime;
     
+    DLog(@"MM %@",[NSThread currentThread]);
+
     if ((userLocation.coordinate.latitude != 0.0) && (userLocation.coordinate.longitude != 0.0)) {
         dispatch_once(&centerMapFirstTime, ^{
             [self.mapView setCenterCoordinate:userLocation.coordinate animated:YES];

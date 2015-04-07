@@ -67,19 +67,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    DLog(@"11 %@",[NSThread currentThread]);
+    
 	// Do any additional setup after loading the view, typically from a nib.
     switch ([AFNetworkReachabilityManager sharedManager].networkReachabilityStatus) {
         case AFNetworkReachabilityStatusUnknown:
-            NSLog(@"AFNetworkReachabilityStatusUnknown");
+            DLog(@"AFNetworkReachabilityStatusUnknown");
             break;
         case AFNetworkReachabilityStatusReachableViaWiFi:
-            NSLog(@"AFNetworkReachabilityStatusReachableViaWiFi");
+            DLog(@"AFNetworkReachabilityStatusReachableViaWiFi");
             break;
         case AFNetworkReachabilityStatusReachableViaWWAN:
-            NSLog(@"AFNetworkReachabilityStatusReachableViaWWAN");
+            DLog(@"AFNetworkReachabilityStatusReachableViaWWAN");
             break;
         case AFNetworkReachabilityStatusNotReachable:
-            NSLog(@"AFNetworkReachabilityStatusNotReachable");
+            DLog(@"AFNetworkReachabilityStatusNotReachable");
             break;
             
         default:
@@ -112,7 +115,7 @@
 {
     NSInteger btnIdx = ((UIButton*)sender).tag;
     
-    NSLog(@"%s:%ld",__FUNCTION__, (long)btnIdx);
+    DLog(@"%s:%ld",__FUNCTION__, (long)btnIdx);
     
     switch (btnIdx) {
         case 0:

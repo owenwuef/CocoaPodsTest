@@ -28,6 +28,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    DLog(@"tt %@",[NSThread currentThread]);
+    
     // Do any additional setup after loading the view.
     UIButton *backButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 20, 200, 50)];
     backButton.backgroundColor = [UIColor blackColor];

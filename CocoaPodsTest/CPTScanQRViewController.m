@@ -38,6 +38,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor grayColor];
     UIButton * scanButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
@@ -156,7 +157,7 @@
     [self dismissViewControllerAnimated:YES completion:^
      {
          [timer invalidate];
-         NSLog(@"%@",stringValue);
+         DLog(@"%@",stringValue);
      }];
 }
 

@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 OwenWu. All rights reserved.
 //
 
-#import "BaseModel.h"
+//#import "BaseModel.h"
 
-@interface CPTItem : BaseModel
+@interface CPTItem : NSObject
 
 @property (nonatomic, strong) NSUUID *uuid;
 @property (nonatomic, strong) NSString *name;
