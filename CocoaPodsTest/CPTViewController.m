@@ -8,7 +8,7 @@
 
 #import "CPTViewController.h"
 
-#import "AFNetworking.h"
+//#import "AFNetworking.h"
 
 #import "CPTTabViewController.h"
 
@@ -71,23 +71,23 @@
     DLog(@"11 %@",[NSThread currentThread]);
     
 	// Do any additional setup after loading the view, typically from a nib.
-    switch ([AFNetworkReachabilityManager sharedManager].networkReachabilityStatus) {
-        case AFNetworkReachabilityStatusUnknown:
-            DLog(@"AFNetworkReachabilityStatusUnknown");
-            break;
-        case AFNetworkReachabilityStatusReachableViaWiFi:
-            DLog(@"AFNetworkReachabilityStatusReachableViaWiFi");
-            break;
-        case AFNetworkReachabilityStatusReachableViaWWAN:
-            DLog(@"AFNetworkReachabilityStatusReachableViaWWAN");
-            break;
-        case AFNetworkReachabilityStatusNotReachable:
-            DLog(@"AFNetworkReachabilityStatusNotReachable");
-            break;
-            
-        default:
-            break;
-    }
+//    switch ([AFNetworkReachabilityManager sharedManager].networkReachabilityStatus) {
+//        case AFNetworkReachabilityStatusUnknown:
+//            DLog(@"AFNetworkReachabilityStatusUnknown");
+//            break;
+//        case AFNetworkReachabilityStatusReachableViaWiFi:
+//            DLog(@"AFNetworkReachabilityStatusReachableViaWiFi");
+//            break;
+//        case AFNetworkReachabilityStatusReachableViaWWAN:
+//            DLog(@"AFNetworkReachabilityStatusReachableViaWWAN");
+//            break;
+//        case AFNetworkReachabilityStatusNotReachable:
+//            DLog(@"AFNetworkReachabilityStatusNotReachable");
+//            break;
+//            
+//        default:
+//            break;
+//    }
 }
 
 -(void)viewDidAppear:(BOOL)animated{
