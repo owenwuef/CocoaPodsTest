@@ -7,318 +7,283 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05EC134C5779AEB307AFA472 /* Pods-TransitionKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CEE76C987084D1F4D72692 /* Pods-TransitionKit-dummy.m */; };
-		07864F0A87B8403AA1B3BC3A /* TKStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1357B226E4B54788ED12E89A /* TKStateMachine.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		148815AB9CABB7C274AA382C /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 350304E6FF35E24B6688C0BA /* ALView+PureLayout.h */; };
-		18EF531B8CC7BCF89AA2DB7B /* TransitionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D641D513648EEB8673975A7 /* TransitionKit.h */; };
-		23AA7B35593D352DF7B6F21C /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F071DED347352F171C87B8 /* ALView+PureLayout.m */; };
-		2D288D1C417DF3AA619F8576 /* TKStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = 376FF90985BB801B47AF4FFC /* TKStateMachine.h */; };
-		2D51DA2B66BF8110A22F8F02 /* TKEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E16C624E3A54E2032D17C7D /* TKEvent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3317A229C60AF333C2F31A68 /* Pods-PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 432164A22B49FC4303E5F984 /* Pods-PureLayout-dummy.m */; };
-		3A0AFB84B1506CFB2955A153 /* TKTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A7CCDC777C37A864C156B30 /* TKTransition.h */; };
-		60290D46CBB5BF29D15BFA42 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7A8FEBB98DB94EAFAC2CCD /* NSLayoutConstraint+PureLayout.m */; };
-		6A58C9E12731AFB04D537560 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C6AF5E151390816311055B /* Foundation.framework */; };
-		82A69F6170CF24F88BC2E4A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C6AF5E151390816311055B /* Foundation.framework */; };
-		96BC9B01E22BE5F4B0A19606 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5640829E590DCE65E30089DD /* PureLayoutDefines.h */; };
-		9A781151541AD93F3FC58989 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 894CB77E06285A60435882DC /* NSLayoutConstraint+PureLayout.h */; };
-		A5C05A43B3E4F5087E824D5E /* TKEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 88AE2C153DAD3466CEB052E7 /* TKEvent.h */; };
-		A8E1E30E3CDAFB3F35B66583 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C6AF5E151390816311055B /* Foundation.framework */; };
-		A97A4A9AAA2459339845CCC1 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 15614B8280C181FFB082ABF4 /* NSArray+PureLayout.m */; };
-		AED897A180E0543C988AB104 /* TKTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F6285AE53C53648DC0534083 /* TKTransition.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		BAD3FCA41E69B24BE780C263 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB70B30ADC5F06EE337A29C /* PureLayout.h */; };
-		CB213ECDBAC5EF0126BCC801 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB68FEC7DECB89DC7353C17 /* PureLayout+Internal.h */; };
-		CD7A40E2F54E626F8B92A9DB /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = E7BD886675B08F09858B873C /* NSArray+PureLayout.h */; };
-		F969899CDA51C40A333F787E /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8E6A8226E7B16F697DF810 /* Pods-dummy.m */; };
-		FA87498BB53832F946CB8F65 /* TKState.h in Headers */ = {isa = PBXBuildFile; fileRef = 759539E07F258DC9D8BCB017 /* TKState.h */; };
-		FEA683ABAD1BD76F6E674802 /* TKState.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CA20D2108F5CB214813E78 /* TKState.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		07E232A3C2928171E525C227 /* TKEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DB4058AED413FED333DFAE /* TKEvent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		08CCDD11B2968D2405D0E28C /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4A5917F0F3B1524E797E7C /* PureLayout.h */; };
+		0A588E899788FCC2D3BE4CB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E0B2B0EA567409C51627CE /* Foundation.framework */; };
+		12510C5D69C556B288F35D0C /* TKTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 510A39F70175EEE4D36032A4 /* TKTransition.h */; };
+		201F520B98DBC6E8E005BD3F /* Pods-TransitionKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4DE1D609D3DC2A1B2443D2 /* Pods-TransitionKit-dummy.m */; };
+		44CD0BA56CE8885BBDF8EAB5 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3C99CABA061A1481910C1E /* Pods-dummy.m */; };
+		5A1426934F82BA6D348F32B1 /* TKEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = F86E41E962DD14724C940944 /* TKEvent.h */; };
+		5EDE588003EB299A5BA42434 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E0B2B0EA567409C51627CE /* Foundation.framework */; };
+		6656AE042C35F3BAB5CD1A68 /* TransitionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C80B396F630CEAC6D2B573C5 /* TransitionKit.h */; };
+		71336CBB412932741B46E8B3 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F47837444B353B765C6E6D4B /* NSLayoutConstraint+PureLayout.m */; };
+		8C42930A7E6095826E914F43 /* TKStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DD5D6BA4F71CA5BA3946FAD /* TKStateMachine.h */; };
+		915F7CE86E3C636E9ADD4858 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB468F97AD2DF7DF51F50CF /* NSArray+PureLayout.h */; };
+		A04A8D993155DC806A0B9F10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E0B2B0EA567409C51627CE /* Foundation.framework */; };
+		AD0CBAB7BF85B72409E6459C /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A6CA42B3582F307298AAC31 /* ALView+PureLayout.h */; };
+		B274A8751FDDAFE4A3D16758 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 48852C3774847BDF86BBE3FC /* NSArray+PureLayout.m */; };
+		BCA157673224DD9EB68D60D3 /* TKState.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BBD3DE6508F63CD076B8CA1 /* TKState.h */; };
+		C3F06A471B9EE8E4139DE492 /* TKState.m in Sources */ = {isa = PBXBuildFile; fileRef = FE169906DC52BD557192D5CD /* TKState.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CD3EC07661F03A18ED99AA9B /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B931323161CCA91F193E538 /* NSLayoutConstraint+PureLayout.h */; };
+		D58CD458CCE2D6BFD818D605 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = A89A23E50D117E308EB911B2 /* PureLayoutDefines.h */; };
+		D70E0512A6AC05EF42406392 /* Pods-PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F7C99D496F718E5AF0807 /* Pods-PureLayout-dummy.m */; };
+		DAAB4991DEA4511880AD32F4 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E89284E75AFC721476D7C5DA /* ALView+PureLayout.m */; };
+		E273E2E587450373C44D9637 /* TKStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = FE457834C98963AECEF5047B /* TKStateMachine.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E7AB12C78E05819E7B615157 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DDF511D02E161210D09FE4A /* PureLayout+Internal.h */; };
+		F27E59CFD7D4443A74F97105 /* TKTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE58DC41F8C7A9088304BCD /* TKTransition.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0902E08FCBFF5A369FD59412 /* PBXContainerItemProxy */ = {
+		0912B3F0F8B258C0F6F0744D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6E5FB514CC3A0435EB01A4E1 /* Project object */;
+			containerPortal = EE25663A00314D683EA3BD6A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7A4434D52094F7A45F1D9F2F;
+			remoteGlobalIDString = 4EDEA179C5F4EE53EBC3D3D6;
 			remoteInfo = "Pods-TransitionKit";
 		};
-		94D49D4387F6E27907A5A76B /* PBXContainerItemProxy */ = {
+		098157A74B6DADE5289F27CB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6E5FB514CC3A0435EB01A4E1 /* Project object */;
+			containerPortal = EE25663A00314D683EA3BD6A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 73431F8A130F84A123268245;
+			remoteGlobalIDString = CDE939171E766A4E21AF1585;
 			remoteInfo = "Pods-PureLayout";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A7CCDC777C37A864C156B30 /* TKTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKTransition.h; path = Code/TKTransition.h; sourceTree = "<group>"; };
-		1357B226E4B54788ED12E89A /* TKStateMachine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKStateMachine.m; path = Code/TKStateMachine.m; sourceTree = "<group>"; };
-		14CA1FD52ED66721158B6043 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
-		15614B8280C181FFB082ABF4 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "Source/NSArray+PureLayout.m"; sourceTree = "<group>"; };
-		1E16C624E3A54E2032D17C7D /* TKEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKEvent.m; path = Code/TKEvent.m; sourceTree = "<group>"; };
-		1F098A4BEA99EEC40A10AE02 /* Pods-PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PureLayout-prefix.pch"; sourceTree = "<group>"; };
-		2A8E6A8226E7B16F697DF810 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		2B2C76A9B376C85543D710D0 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		2C7A8FEBB98DB94EAFAC2CCD /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "Source/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
-		2FB68FEC7DECB89DC7353C17 /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "Source/PureLayout+Internal.h"; sourceTree = "<group>"; };
-		350304E6FF35E24B6688C0BA /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "Source/ALView+PureLayout.h"; sourceTree = "<group>"; };
-		36F071DED347352F171C87B8 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "Source/ALView+PureLayout.m"; sourceTree = "<group>"; };
-		376FF90985BB801B47AF4FFC /* TKStateMachine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKStateMachine.h; path = Code/TKStateMachine.h; sourceTree = "<group>"; };
-		3BCEBD384425AD0E66FF4799 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		40009392CEBE9B5EAA060D0E /* libPods-PureLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PureLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		432164A22B49FC4303E5F984 /* Pods-PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PureLayout-dummy.m"; sourceTree = "<group>"; };
-		49D8A9C8ED75B6DF23B9F08F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4CE036649A4006C21EB33E32 /* Pods-PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PureLayout.xcconfig"; sourceTree = "<group>"; };
-		5640829E590DCE65E30089DD /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = Source/PureLayoutDefines.h; sourceTree = "<group>"; };
-		571D51B4F1A263BB8FE404DB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D641D513648EEB8673975A7 /* TransitionKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransitionKit.h; path = Code/TransitionKit.h; sourceTree = "<group>"; };
-		7405E16A0BB60821E565E950 /* Pods-TransitionKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TransitionKit.xcconfig"; sourceTree = "<group>"; };
-		759539E07F258DC9D8BCB017 /* TKState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKState.h; path = Code/TKState.h; sourceTree = "<group>"; };
-		85F133E1A2B470F361D21864 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		88AE2C153DAD3466CEB052E7 /* TKEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKEvent.h; path = Code/TKEvent.h; sourceTree = "<group>"; };
-		894CB77E06285A60435882DC /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "Source/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
-		94EEE29902D244206C079023 /* Pods-TransitionKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TransitionKit-Private.xcconfig"; sourceTree = "<group>"; };
-		A1CEE76C987084D1F4D72692 /* Pods-TransitionKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TransitionKit-dummy.m"; sourceTree = "<group>"; };
-		B8C6AF5E151390816311055B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B8CA20D2108F5CB214813E78 /* TKState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKState.m; path = Code/TKState.m; sourceTree = "<group>"; };
-		CDF3878E6237AB8187DC3265 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CF5FD640E0960AD8D166435E /* libPods-TransitionKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TransitionKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDFC9A06AB01B54140570E27 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		E07A21E4A810A8A1204AB6BD /* Pods-PureLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PureLayout-Private.xcconfig"; sourceTree = "<group>"; };
-		E7BD886675B08F09858B873C /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "Source/NSArray+PureLayout.h"; sourceTree = "<group>"; };
-		EF6A89DBEA50AD9E669493E3 /* Pods-TransitionKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TransitionKit-prefix.pch"; sourceTree = "<group>"; };
-		EFB70B30ADC5F06EE337A29C /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = Source/PureLayout.h; sourceTree = "<group>"; };
-		F6285AE53C53648DC0534083 /* TKTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKTransition.m; path = Code/TKTransition.m; sourceTree = "<group>"; };
+		00138C0FF8C4C31511EC5080 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0AE58DC41F8C7A9088304BCD /* TKTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKTransition.m; path = Code/TKTransition.m; sourceTree = "<group>"; };
+		13E0B2B0EA567409C51627CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1DDF511D02E161210D09FE4A /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "Source/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		36932EAD0C0C183649599C08 /* Pods-PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		38BCD3C56869A643E094EC4F /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C868CC438A054133903637F /* Pods-TransitionKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TransitionKit.xcconfig"; sourceTree = "<group>"; };
+		3DD5D6BA4F71CA5BA3946FAD /* TKStateMachine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKStateMachine.h; path = Code/TKStateMachine.h; sourceTree = "<group>"; };
+		48852C3774847BDF86BBE3FC /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "Source/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		4A5F7C99D496F718E5AF0807 /* Pods-PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PureLayout-dummy.m"; sourceTree = "<group>"; };
+		4E4A5917F0F3B1524E797E7C /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = Source/PureLayout.h; sourceTree = "<group>"; };
+		510A39F70175EEE4D36032A4 /* TKTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKTransition.h; path = Code/TKTransition.h; sourceTree = "<group>"; };
+		5BBD3DE6508F63CD076B8CA1 /* TKState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKState.h; path = Code/TKState.h; sourceTree = "<group>"; };
+		5C4DE1D609D3DC2A1B2443D2 /* Pods-TransitionKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TransitionKit-dummy.m"; sourceTree = "<group>"; };
+		78016ED66B9F4612711DE2DD /* libPods-TransitionKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TransitionKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B931323161CCA91F193E538 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "Source/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		8EB468F97AD2DF7DF51F50CF /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "Source/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		9A6CA42B3582F307298AAC31 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "Source/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		9DD52DF9079392339549A743 /* Pods-PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PureLayout.xcconfig"; sourceTree = "<group>"; };
+		A04838340046C703F0ECCF8E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		A89A23E50D117E308EB911B2 /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = Source/PureLayoutDefines.h; sourceTree = "<group>"; };
+		AD3C99CABA061A1481910C1E /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		BC68C4CA08453BD214D3A4CB /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		C3DB4058AED413FED333DFAE /* TKEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKEvent.m; path = Code/TKEvent.m; sourceTree = "<group>"; };
+		C80B396F630CEAC6D2B573C5 /* TransitionKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransitionKit.h; path = Code/TransitionKit.h; sourceTree = "<group>"; };
+		CB5D6389B9E6D677A258182B /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D2D3DCE2F3CCD3FD7B28D308 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76F454A7578967D7316C778 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		DCCB2A1BB230D209419EEBA8 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		DF94794BFD64392EC1FF41B4 /* libPods-PureLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PureLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF9D5571BF284F55C3B1CB3A /* Pods-TransitionKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TransitionKit-prefix.pch"; sourceTree = "<group>"; };
+		E77883BC96F41733DA1DED77 /* Pods-PureLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PureLayout-Private.xcconfig"; sourceTree = "<group>"; };
+		E89284E75AFC721476D7C5DA /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "Source/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		EEB1DC382AFAF299EC403A06 /* Pods-TransitionKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TransitionKit-Private.xcconfig"; sourceTree = "<group>"; };
+		F47837444B353B765C6E6D4B /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "Source/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		F86E41E962DD14724C940944 /* TKEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKEvent.h; path = Code/TKEvent.h; sourceTree = "<group>"; };
+		FE169906DC52BD557192D5CD /* TKState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKState.m; path = Code/TKState.m; sourceTree = "<group>"; };
+		FE457834C98963AECEF5047B /* TKStateMachine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKStateMachine.m; path = Code/TKStateMachine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		410E1256C87D484E87619CA0 /* Frameworks */ = {
+		58041A8E204DDFC0477519E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A58C9E12731AFB04D537560 /* Foundation.framework in Frameworks */,
+				5EDE588003EB299A5BA42434 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E3C4D77FFB42FC38F9479EC /* Frameworks */ = {
+		822FE619A26A20F7BC3D1CB4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8E1E30E3CDAFB3F35B66583 /* Foundation.framework in Frameworks */,
+				A04A8D993155DC806A0B9F10 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6C8869B6F308A8DB603B2C3 /* Frameworks */ = {
+		9B9F18876275CF45307F13C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82A69F6170CF24F88BC2E4A2 /* Foundation.framework in Frameworks */,
+				0A588E899788FCC2D3BE4CB4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F31C914A6205F66BA04F4C2 /* Frameworks */ = {
+		11C7AFC57AE9DA8BC77B75A0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C97A9D1AB2D830B4CD3600B4 /* iOS */,
+				13E0B2B0EA567409C51627CE /* Foundation.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		511F04DDE517C7231C3A907F /* Support Files */ = {
+		25AD1F10237A1BA595A9B0CD /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4CE036649A4006C21EB33E32 /* Pods-PureLayout.xcconfig */,
-				E07A21E4A810A8A1204AB6BD /* Pods-PureLayout-Private.xcconfig */,
-				432164A22B49FC4303E5F984 /* Pods-PureLayout-dummy.m */,
-				1F098A4BEA99EEC40A10AE02 /* Pods-PureLayout-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-PureLayout";
-			sourceTree = "<group>";
-		};
-		9829B8644C8DE11C1E117D05 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B85452EE054624F184C3E468 /* Pods */,
+				8CE2006FF84EEE2A8BBDF69B /* Pods */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AA76B307F02B874E7ED87EA3 /* TransitionKit */ = {
+		5C41C8924D65A7806D2E8A68 /* PureLayout */ = {
 			isa = PBXGroup;
 			children = (
-				88AE2C153DAD3466CEB052E7 /* TKEvent.h */,
-				1E16C624E3A54E2032D17C7D /* TKEvent.m */,
-				759539E07F258DC9D8BCB017 /* TKState.h */,
-				B8CA20D2108F5CB214813E78 /* TKState.m */,
-				376FF90985BB801B47AF4FFC /* TKStateMachine.h */,
-				1357B226E4B54788ED12E89A /* TKStateMachine.m */,
-				0A7CCDC777C37A864C156B30 /* TKTransition.h */,
-				F6285AE53C53648DC0534083 /* TKTransition.m */,
-				6D641D513648EEB8673975A7 /* TransitionKit.h */,
-				B46D60537437350B1DBC010A /* Support Files */,
+				9A6CA42B3582F307298AAC31 /* ALView+PureLayout.h */,
+				E89284E75AFC721476D7C5DA /* ALView+PureLayout.m */,
+				8EB468F97AD2DF7DF51F50CF /* NSArray+PureLayout.h */,
+				48852C3774847BDF86BBE3FC /* NSArray+PureLayout.m */,
+				7B931323161CCA91F193E538 /* NSLayoutConstraint+PureLayout.h */,
+				F47837444B353B765C6E6D4B /* NSLayoutConstraint+PureLayout.m */,
+				4E4A5917F0F3B1524E797E7C /* PureLayout.h */,
+				1DDF511D02E161210D09FE4A /* PureLayout+Internal.h */,
+				A89A23E50D117E308EB911B2 /* PureLayoutDefines.h */,
+				D7998CD79503A60DE6B4BA85 /* Support Files */,
 			);
-			path = TransitionKit;
+			path = PureLayout;
 			sourceTree = "<group>";
 		};
-		B191E0FDEFBEB54E91044EAA = {
+		67E6D4CB50357FFE43F70638 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				49D8A9C8ED75B6DF23B9F08F /* Podfile */,
-				2F31C914A6205F66BA04F4C2 /* Frameworks */,
-				EFC1462195BEB39D45F25A0B /* Pods */,
-				E92B429F308402D3A7664ECF /* Products */,
-				9829B8644C8DE11C1E117D05 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		B46D60537437350B1DBC010A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7405E16A0BB60821E565E950 /* Pods-TransitionKit.xcconfig */,
-				94EEE29902D244206C079023 /* Pods-TransitionKit-Private.xcconfig */,
-				A1CEE76C987084D1F4D72692 /* Pods-TransitionKit-dummy.m */,
-				EF6A89DBEA50AD9E669493E3 /* Pods-TransitionKit-prefix.pch */,
+				3C868CC438A054133903637F /* Pods-TransitionKit.xcconfig */,
+				EEB1DC382AFAF299EC403A06 /* Pods-TransitionKit-Private.xcconfig */,
+				5C4DE1D609D3DC2A1B2443D2 /* Pods-TransitionKit-dummy.m */,
+				DF9D5571BF284F55C3B1CB3A /* Pods-TransitionKit-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-TransitionKit";
 			sourceTree = "<group>";
 		};
-		B85452EE054624F184C3E468 /* Pods */ = {
+		8CE2006FF84EEE2A8BBDF69B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CDF3878E6237AB8187DC3265 /* Pods-acknowledgements.markdown */,
-				DDFC9A06AB01B54140570E27 /* Pods-acknowledgements.plist */,
-				2A8E6A8226E7B16F697DF810 /* Pods-dummy.m */,
-				14CA1FD52ED66721158B6043 /* Pods-environment.h */,
-				2B2C76A9B376C85543D710D0 /* Pods-resources.sh */,
-				3BCEBD384425AD0E66FF4799 /* Pods.debug.xcconfig */,
-				85F133E1A2B470F361D21864 /* Pods.release.xcconfig */,
+				CB5D6389B9E6D677A258182B /* Pods-acknowledgements.markdown */,
+				38BCD3C56869A643E094EC4F /* Pods-acknowledgements.plist */,
+				AD3C99CABA061A1481910C1E /* Pods-dummy.m */,
+				DCCB2A1BB230D209419EEBA8 /* Pods-environment.h */,
+				BC68C4CA08453BD214D3A4CB /* Pods-resources.sh */,
+				A04838340046C703F0ECCF8E /* Pods.debug.xcconfig */,
+				D76F454A7578967D7316C778 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		C97A9D1AB2D830B4CD3600B4 /* iOS */ = {
+		95E784C87A1E6D63897C0FC1 /* TransitionKit */ = {
 			isa = PBXGroup;
 			children = (
-				B8C6AF5E151390816311055B /* Foundation.framework */,
+				F86E41E962DD14724C940944 /* TKEvent.h */,
+				C3DB4058AED413FED333DFAE /* TKEvent.m */,
+				5BBD3DE6508F63CD076B8CA1 /* TKState.h */,
+				FE169906DC52BD557192D5CD /* TKState.m */,
+				3DD5D6BA4F71CA5BA3946FAD /* TKStateMachine.h */,
+				FE457834C98963AECEF5047B /* TKStateMachine.m */,
+				510A39F70175EEE4D36032A4 /* TKTransition.h */,
+				0AE58DC41F8C7A9088304BCD /* TKTransition.m */,
+				C80B396F630CEAC6D2B573C5 /* TransitionKit.h */,
+				67E6D4CB50357FFE43F70638 /* Support Files */,
 			);
-			name = iOS;
+			path = TransitionKit;
 			sourceTree = "<group>";
 		};
-		E92B429F308402D3A7664ECF /* Products */ = {
+		97A1F0743D63B48D83124054 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				571D51B4F1A263BB8FE404DB /* libPods.a */,
-				40009392CEBE9B5EAA060D0E /* libPods-PureLayout.a */,
-				CF5FD640E0960AD8D166435E /* libPods-TransitionKit.a */,
+				5C41C8924D65A7806D2E8A68 /* PureLayout */,
+				95E784C87A1E6D63897C0FC1 /* TransitionKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7AAFFFEE7BBC8422F07FF69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2D3DCE2F3CCD3FD7B28D308 /* libPods.a */,
+				DF94794BFD64392EC1FF41B4 /* libPods-PureLayout.a */,
+				78016ED66B9F4612711DE2DD /* libPods-TransitionKit.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EE668823D2894B0F46E6BD55 /* PureLayout */ = {
+		BFE43987C5D8BA5C2E2CFBF3 = {
 			isa = PBXGroup;
 			children = (
-				350304E6FF35E24B6688C0BA /* ALView+PureLayout.h */,
-				36F071DED347352F171C87B8 /* ALView+PureLayout.m */,
-				E7BD886675B08F09858B873C /* NSArray+PureLayout.h */,
-				15614B8280C181FFB082ABF4 /* NSArray+PureLayout.m */,
-				894CB77E06285A60435882DC /* NSLayoutConstraint+PureLayout.h */,
-				2C7A8FEBB98DB94EAFAC2CCD /* NSLayoutConstraint+PureLayout.m */,
-				EFB70B30ADC5F06EE337A29C /* PureLayout.h */,
-				2FB68FEC7DECB89DC7353C17 /* PureLayout+Internal.h */,
-				5640829E590DCE65E30089DD /* PureLayoutDefines.h */,
-				511F04DDE517C7231C3A907F /* Support Files */,
+				00138C0FF8C4C31511EC5080 /* Podfile */,
+				DEBE714C758D41D9DFC1BDED /* Frameworks */,
+				97A1F0743D63B48D83124054 /* Pods */,
+				B7AAFFFEE7BBC8422F07FF69 /* Products */,
+				25AD1F10237A1BA595A9B0CD /* Targets Support Files */,
 			);
-			path = PureLayout;
 			sourceTree = "<group>";
 		};
-		EFC1462195BEB39D45F25A0B /* Pods */ = {
+		D7998CD79503A60DE6B4BA85 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EE668823D2894B0F46E6BD55 /* PureLayout */,
-				AA76B307F02B874E7ED87EA3 /* TransitionKit */,
+				9DD52DF9079392339549A743 /* Pods-PureLayout.xcconfig */,
+				E77883BC96F41733DA1DED77 /* Pods-PureLayout-Private.xcconfig */,
+				4A5F7C99D496F718E5AF0807 /* Pods-PureLayout-dummy.m */,
+				36932EAD0C0C183649599C08 /* Pods-PureLayout-prefix.pch */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/Pods-PureLayout";
+			sourceTree = "<group>";
+		};
+		DEBE714C758D41D9DFC1BDED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11C7AFC57AE9DA8BC77B75A0 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2E70A53CD89BB6337C4F8FF9 /* Headers */ = {
+		3D787881CD12202588D08765 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5C05A43B3E4F5087E824D5E /* TKEvent.h in Headers */,
-				FA87498BB53832F946CB8F65 /* TKState.h in Headers */,
-				2D288D1C417DF3AA619F8576 /* TKStateMachine.h in Headers */,
-				3A0AFB84B1506CFB2955A153 /* TKTransition.h in Headers */,
-				18EF531B8CC7BCF89AA2DB7B /* TransitionKit.h in Headers */,
+				AD0CBAB7BF85B72409E6459C /* ALView+PureLayout.h in Headers */,
+				915F7CE86E3C636E9ADD4858 /* NSArray+PureLayout.h in Headers */,
+				CD3EC07661F03A18ED99AA9B /* NSLayoutConstraint+PureLayout.h in Headers */,
+				E7AB12C78E05819E7B615157 /* PureLayout+Internal.h in Headers */,
+				08CCDD11B2968D2405D0E28C /* PureLayout.h in Headers */,
+				D58CD458CCE2D6BFD818D605 /* PureLayoutDefines.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DFAB65255AC46E1F9C6F6DC /* Headers */ = {
+		9030D0D285E1A38953407A7C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				148815AB9CABB7C274AA382C /* ALView+PureLayout.h in Headers */,
-				CD7A40E2F54E626F8B92A9DB /* NSArray+PureLayout.h in Headers */,
-				9A781151541AD93F3FC58989 /* NSLayoutConstraint+PureLayout.h in Headers */,
-				CB213ECDBAC5EF0126BCC801 /* PureLayout+Internal.h in Headers */,
-				BAD3FCA41E69B24BE780C263 /* PureLayout.h in Headers */,
-				96BC9B01E22BE5F4B0A19606 /* PureLayoutDefines.h in Headers */,
+				5A1426934F82BA6D348F32B1 /* TKEvent.h in Headers */,
+				BCA157673224DD9EB68D60D3 /* TKState.h in Headers */,
+				8C42930A7E6095826E914F43 /* TKStateMachine.h in Headers */,
+				12510C5D69C556B288F35D0C /* TKTransition.h in Headers */,
+				6656AE042C35F3BAB5CD1A68 /* TransitionKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		73431F8A130F84A123268245 /* Pods-PureLayout */ = {
+		4EDEA179C5F4EE53EBC3D3D6 /* Pods-TransitionKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DD2A1B7B038EDD7B8530FD4 /* Build configuration list for PBXNativeTarget "Pods-PureLayout" */;
+			buildConfigurationList = 7266EF85A41E23E0A4DF13D0 /* Build configuration list for PBXNativeTarget "Pods-TransitionKit" */;
 			buildPhases = (
-				8298A7E592E304D04A3DB4BB /* Sources */,
-				8E3C4D77FFB42FC38F9479EC /* Frameworks */,
-				5DFAB65255AC46E1F9C6F6DC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-PureLayout";
-			productName = "Pods-PureLayout";
-			productReference = 40009392CEBE9B5EAA060D0E /* libPods-PureLayout.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		76DFC2A916E20238F7D8C73B /* Pods */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5CBAC79F62DCEFF02634924E /* Build configuration list for PBXNativeTarget "Pods" */;
-			buildPhases = (
-				D6AC16A06CF0BAAB1F704D3E /* Sources */,
-				410E1256C87D484E87619CA0 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7E1BC74F34E5D72B9D4801D2 /* PBXTargetDependency */,
-				21B832CC1546B6BA08637C75 /* PBXTargetDependency */,
-			);
-			name = Pods;
-			productName = Pods;
-			productReference = 571D51B4F1A263BB8FE404DB /* libPods.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		7A4434D52094F7A45F1D9F2F /* Pods-TransitionKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0FB8347595B0897A0FA33C97 /* Build configuration list for PBXNativeTarget "Pods-TransitionKit" */;
-			buildPhases = (
-				37B739AA81DD8D95BA0A8E1B /* Sources */,
-				B6C8869B6F308A8DB603B2C3 /* Frameworks */,
-				2E70A53CD89BB6337C4F8FF9 /* Headers */,
+				9810CA873DB809CE5FC4C79F /* Sources */,
+				822FE619A26A20F7BC3D1CB4 /* Frameworks */,
+				9030D0D285E1A38953407A7C /* Headers */,
 			);
 			buildRules = (
 			);
@@ -326,87 +291,154 @@
 			);
 			name = "Pods-TransitionKit";
 			productName = "Pods-TransitionKit";
-			productReference = CF5FD640E0960AD8D166435E /* libPods-TransitionKit.a */;
+			productReference = 78016ED66B9F4612711DE2DD /* libPods-TransitionKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CA4D53BDABEF5000137CC6AD /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B7BA1D42D638510B8307E0 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				95217048157CF63F6F3E122F /* Sources */,
+				9B9F18876275CF45307F13C4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E95430506B15FD298982A52 /* PBXTargetDependency */,
+				A5717DF9581A93941B340DF6 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = D2D3DCE2F3CCD3FD7B28D308 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CDE939171E766A4E21AF1585 /* Pods-PureLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A178CCF7D004A0BE912661 /* Build configuration list for PBXNativeTarget "Pods-PureLayout" */;
+			buildPhases = (
+				26716D1950D1DE271D19B1AC /* Sources */,
+				58041A8E204DDFC0477519E9 /* Frameworks */,
+				3D787881CD12202588D08765 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PureLayout";
+			productName = "Pods-PureLayout";
+			productReference = DF94794BFD64392EC1FF41B4 /* libPods-PureLayout.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6E5FB514CC3A0435EB01A4E1 /* Project object */ = {
+		EE25663A00314D683EA3BD6A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 524D99E90227B7447A554324 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = E6B51B4604351071971A8976 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = B191E0FDEFBEB54E91044EAA;
-			productRefGroup = E92B429F308402D3A7664ECF /* Products */;
+			mainGroup = BFE43987C5D8BA5C2E2CFBF3;
+			productRefGroup = B7AAFFFEE7BBC8422F07FF69 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				76DFC2A916E20238F7D8C73B /* Pods */,
-				73431F8A130F84A123268245 /* Pods-PureLayout */,
-				7A4434D52094F7A45F1D9F2F /* Pods-TransitionKit */,
+				CA4D53BDABEF5000137CC6AD /* Pods */,
+				CDE939171E766A4E21AF1585 /* Pods-PureLayout */,
+				4EDEA179C5F4EE53EBC3D3D6 /* Pods-TransitionKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		37B739AA81DD8D95BA0A8E1B /* Sources */ = {
+		26716D1950D1DE271D19B1AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05EC134C5779AEB307AFA472 /* Pods-TransitionKit-dummy.m in Sources */,
-				2D51DA2B66BF8110A22F8F02 /* TKEvent.m in Sources */,
-				FEA683ABAD1BD76F6E674802 /* TKState.m in Sources */,
-				07864F0A87B8403AA1B3BC3A /* TKStateMachine.m in Sources */,
-				AED897A180E0543C988AB104 /* TKTransition.m in Sources */,
+				DAAB4991DEA4511880AD32F4 /* ALView+PureLayout.m in Sources */,
+				B274A8751FDDAFE4A3D16758 /* NSArray+PureLayout.m in Sources */,
+				71336CBB412932741B46E8B3 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				D70E0512A6AC05EF42406392 /* Pods-PureLayout-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8298A7E592E304D04A3DB4BB /* Sources */ = {
+		95217048157CF63F6F3E122F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23AA7B35593D352DF7B6F21C /* ALView+PureLayout.m in Sources */,
-				A97A4A9AAA2459339845CCC1 /* NSArray+PureLayout.m in Sources */,
-				60290D46CBB5BF29D15BFA42 /* NSLayoutConstraint+PureLayout.m in Sources */,
-				3317A229C60AF333C2F31A68 /* Pods-PureLayout-dummy.m in Sources */,
+				44CD0BA56CE8885BBDF8EAB5 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6AC16A06CF0BAAB1F704D3E /* Sources */ = {
+		9810CA873DB809CE5FC4C79F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F969899CDA51C40A333F787E /* Pods-dummy.m in Sources */,
+				201F520B98DBC6E8E005BD3F /* Pods-TransitionKit-dummy.m in Sources */,
+				07E232A3C2928171E525C227 /* TKEvent.m in Sources */,
+				C3F06A471B9EE8E4139DE492 /* TKState.m in Sources */,
+				E273E2E587450373C44D9637 /* TKStateMachine.m in Sources */,
+				F27E59CFD7D4443A74F97105 /* TKTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		21B832CC1546B6BA08637C75 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-TransitionKit";
-			target = 7A4434D52094F7A45F1D9F2F /* Pods-TransitionKit */;
-			targetProxy = 0902E08FCBFF5A369FD59412 /* PBXContainerItemProxy */;
-		};
-		7E1BC74F34E5D72B9D4801D2 /* PBXTargetDependency */ = {
+		3E95430506B15FD298982A52 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PureLayout";
-			target = 73431F8A130F84A123268245 /* Pods-PureLayout */;
-			targetProxy = 94D49D4387F6E27907A5A76B /* PBXContainerItemProxy */;
+			target = CDE939171E766A4E21AF1585 /* Pods-PureLayout */;
+			targetProxy = 098157A74B6DADE5289F27CB /* PBXContainerItemProxy */;
+		};
+		A5717DF9581A93941B340DF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TransitionKit";
+			target = 4EDEA179C5F4EE53EBC3D3D6 /* Pods-TransitionKit */;
+			targetProxy = 0912B3F0F8B258C0F6F0744D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		23B4EE6C0954E60A84127559 /* Debug */ = {
+		00575D55F2961352C09B6549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A04838340046C703F0ECCF8E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0EBA68C94C00C649233A7FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEB1DC382AFAF299EC403A06 /* Pods-TransitionKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TransitionKit/Pods-TransitionKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		59BB6E4EDB08E9CC5B6EA05A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -445,9 +477,25 @@
 			};
 			name = Debug;
 		};
-		415D9EA6CCA5581F9F8714C9 /* Debug */ = {
+		B88C32165C3A3B2DF7DC564F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E07A21E4A810A8A1204AB6BD /* Pods-PureLayout-Private.xcconfig */;
+			baseConfigurationReference = E77883BC96F41733DA1DED77 /* Pods-PureLayout-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PureLayout/Pods-PureLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B9DD9884490230F431DC701E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E77883BC96F41733DA1DED77 /* Pods-PureLayout-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-PureLayout/Pods-PureLayout-prefix.pch";
@@ -461,39 +509,7 @@
 			};
 			name = Debug;
 		};
-		8DBDE9D4B5176FC221CE100A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85F133E1A2B470F361D21864 /* Pods.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		A6F5C2862364C631856C0606 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94EEE29902D244206C079023 /* Pods-TransitionKit-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-TransitionKit/Pods-TransitionKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		AE44FE1398345F3105D9AFF3 /* Release */ = {
+		C697A317D721196600E51C12 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -521,19 +537,20 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		CE9750585CF173C045C547DC /* Debug */ = {
+		C6EC2BBC333E791B2D566EF5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BCEBD384425AD0E66FF4799 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = D76F454A7578967D7316C778 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -541,11 +558,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		F1AD834D0359F66282AA3F9B /* Release */ = {
+		EBCD31A6E2D962478FBE136D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94EEE29902D244206C079023 /* Pods-TransitionKit-Private.xcconfig */;
+			baseConfigurationReference = EEB1DC382AFAF299EC403A06 /* Pods-TransitionKit-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-TransitionKit/Pods-TransitionKit-prefix.pch";
@@ -559,62 +576,46 @@
 			};
 			name = Release;
 		};
-		F3816D5F79408BA59FE2CF93 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E07A21E4A810A8A1204AB6BD /* Pods-PureLayout-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PureLayout/Pods-PureLayout-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0FB8347595B0897A0FA33C97 /* Build configuration list for PBXNativeTarget "Pods-TransitionKit" */ = {
+		52A178CCF7D004A0BE912661 /* Build configuration list for PBXNativeTarget "Pods-PureLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6F5C2862364C631856C0606 /* Debug */,
-				F1AD834D0359F66282AA3F9B /* Release */,
+				B9DD9884490230F431DC701E /* Debug */,
+				B88C32165C3A3B2DF7DC564F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DD2A1B7B038EDD7B8530FD4 /* Build configuration list for PBXNativeTarget "Pods-PureLayout" */ = {
+		7266EF85A41E23E0A4DF13D0 /* Build configuration list for PBXNativeTarget "Pods-TransitionKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				415D9EA6CCA5581F9F8714C9 /* Debug */,
-				F3816D5F79408BA59FE2CF93 /* Release */,
+				0EBA68C94C00C649233A7FF8 /* Debug */,
+				EBCD31A6E2D962478FBE136D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		524D99E90227B7447A554324 /* Build configuration list for PBXProject "Pods" */ = {
+		D0B7BA1D42D638510B8307E0 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23B4EE6C0954E60A84127559 /* Debug */,
-				AE44FE1398345F3105D9AFF3 /* Release */,
+				00575D55F2961352C09B6549 /* Debug */,
+				C6EC2BBC333E791B2D566EF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5CBAC79F62DCEFF02634924E /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		E6B51B4604351071971A8976 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE9750585CF173C045C547DC /* Debug */,
-				8DBDE9D4B5176FC221CE100A /* Release */,
+				59BB6E4EDB08E9CC5B6EA05A /* Debug */,
+				C697A317D721196600E51C12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6E5FB514CC3A0435EB01A4E1 /* Project object */;
+	rootObject = EE25663A00314D683EA3BD6A /* Project object */;
 }
